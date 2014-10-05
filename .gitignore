@@ -1,0 +1,12 @@
+.DS_Store
+.Trashes
+.Spotlight-V100
+
+.sass-cache
+*.css.map
+.sass-cache
+.sass-cache/*
+.sass-cache/*/*.scssc
+**/.sass-cache
+**/.sass-cache/*
+*.sass-cache*
