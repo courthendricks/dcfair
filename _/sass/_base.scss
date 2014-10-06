@@ -1,0 +1,32 @@
+//base stylesheet is for general, basic styles
+
+@import url("http://fonts.googleapis.com/css?family=Varela+Round");
+
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic');
+
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+
+
+//Breakpoints ---------------------------------------------------
+
+@mixin breakpoint($point) {
+
+  @if $point == papa-bear {
+    @media only screen and (max-width: 1600px) { @content; }
+  }
+    @else if $point == uncle-bear {
+    @media only screen and (max-width: 960px)  { @content; }
+  }  
+    @else if $point == mama-bear {
+    @media only screen and (max-width: 900px)  { @content; }
+  }
+    @else if $point == teen-bear {
+    @media only screen and (max-width: 860px)  { @content; }
+  }
+  	@else if $point == baby-bear {
+    @media only screen and (max-width: 500px)  { @content; }
+  }
+}
+
+//Basic Styles ---------------------------------------------------

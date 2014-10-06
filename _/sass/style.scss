@@ -1,0 +1,25 @@
+/*
+Theme Name:   C Theme
+Description:  Twenty Thirteen Child Theme
+Author:       Courtney Hendricks
+Author URI:   http://www.courtneyhendricks.com
+Template:     twentythirteen
+Version:      1.0.0
+Tags:         fluid-layout, responsive-layout, accessibility-ready, microformats
+Text Domain:  twenty-thirteen-child
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+@import "compass";
+@import "compass/reset";
+
+@import "variables";
+@import "mixins";
+@import "base";
+@import "modules";
+
+
