@@ -32,7 +32,8 @@
 //Basic Styles ---------------------------------------------------
 
 p {
-	font: 400 1em $sans;
+	font: 400 1.25em $sans;
+	line-height: 1.25;
 	color: white;
 	margin-bottom: 1.25em;
 }
@@ -46,7 +47,7 @@ h1 {
 }
 
 .panel h1 {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 

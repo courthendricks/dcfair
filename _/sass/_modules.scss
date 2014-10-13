@@ -54,10 +54,29 @@
 	}
 	p {
 		max-width: 1000px;
-		margin: 0 auto;
+		margin: 0 auto 10px auto;
+		line-height: 1.25;
+
 	}
 	.panel {
 		background-color: white;
+	}
+}
+
+// CALENDAR //
+.cal {
+	.panel {
+	background-color: white;
+	}
+	p {
+		color: $green;
+	}
+	em {
+		font-style: normal;
+	}
+	.my-button {
+		margin: 0 auto;
+		text-align: center;
 	}
 }
 
@@ -65,7 +84,7 @@
 // FOOTER //
 .sponsors {
 	padding: 2em 0;
-	background-color: gray;
+	background-color: #6e6e6e;
 	color:white;
 	text-align: center;
 	

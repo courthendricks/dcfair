@@ -17,69 +17,70 @@ Text Domain:  twenty-thirteen-child
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 /* line 34, ../_/sass/_base.scss */
 p {
-  font: 400 1em "Quattrocento Sans", sans-serif;
+  font: 400 1.25em "Quattrocento Sans", sans-serif;
+  line-height: 1.25;
   color: white;
   margin-bottom: 1.25em; }
 
-/* line 41, ../_/sass/_base.scss */
+/* line 42, ../_/sass/_base.scss */
 h1 {
   font: italic 700 2.25em "Playfair Display", serif, serif;
   margin-bottom: 30px;
   text-align: center;
   color: white; }
 
-/* line 48, ../_/sass/_base.scss */
+/* line 49, ../_/sass/_base.scss */
 .panel h1 {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center; }
 
-/* line 53, ../_/sass/_base.scss */
+/* line 54, ../_/sass/_base.scss */
 h2 {
   font: 700 1.75em "Quattrocento Sans", sans-serif, sans-serif;
   text-transform: uppercase; }
 
-/* line 59, ../_/sass/_base.scss */
+/* line 60, ../_/sass/_base.scss */
 h3 {
   font: 900 1.3125em "Playfair Display", serif, serif;
   text-transform: uppercase;
   color: #585c62; }
 
-/* line 65, ../_/sass/_base.scss */
+/* line 66, ../_/sass/_base.scss */
 h4 {
   font: 700 1.125em "Quattrocento Sans", sans-serif, sans-serif;
   text-transform: uppercase;
   margin-bottom: 1.25rem;
   color: white; }
 
-/* line 72, ../_/sass/_base.scss */
+/* line 73, ../_/sass/_base.scss */
 h5 {
   font: italic 400 1em "Quattrocento Sans", sans-serif, sans-serif;
   margin-bottom: 1.25rem; }
 
-/* line 77, ../_/sass/_base.scss */
+/* line 78, ../_/sass/_base.scss */
 .divider {
   border-top: solid 1px #CCCCCC;
   clear: both;
   height: .5px;
   width: 100%; }
 
-/* line 86, ../_/sass/_base.scss */
+/* line 87, ../_/sass/_base.scss */
 .panel {
   background-color: #585c62;
   border: none;
   border-radius: 7px;
   margin: 1em 0; }
 
-/* line 93, ../_/sass/_base.scss */
+/* line 94, ../_/sass/_base.scss */
 .panel ul {
   list-style-type: none;
   margin: 0; }
 
-/* line 98, ../_/sass/_base.scss */
+/* line 99, ../_/sass/_base.scss */
 .panel p {
   margin-bottom: 0; }
 
-/* line 101, ../_/sass/_base.scss */
+/* line 102, ../_/sass/_base.scss */
 .panel .divider {
   margin: .5em 0; }
 
@@ -131,46 +132,61 @@ h5 {
   /* line 55, ../_/sass/_modules.scss */
   .hero p {
     max-width: 1000px;
-    margin: 0 auto; }
-  /* line 59, ../_/sass/_modules.scss */
+    margin: 0 auto 10px auto;
+    line-height: 1.25; }
+  /* line 61, ../_/sass/_modules.scss */
   .hero .panel {
     background-color: white; }
 
-/* line 66, ../_/sass/_modules.scss */
+/* line 68, ../_/sass/_modules.scss */
+.cal .panel {
+  background-color: white; }
+/* line 71, ../_/sass/_modules.scss */
+.cal p {
+  color: #abc069; }
+/* line 74, ../_/sass/_modules.scss */
+.cal em {
+  font-style: normal; }
+/* line 77, ../_/sass/_modules.scss */
+.cal .my-button {
+  margin: 0 auto;
+  text-align: center; }
+
+/* line 85, ../_/sass/_modules.scss */
 .sponsors {
   padding: 2em 0;
-  background-color: gray;
+  background-color: #6e6e6e;
   color: white;
   text-align: center; }
-  /* line 72, ../_/sass/_modules.scss */
+  /* line 91, ../_/sass/_modules.scss */
   .sponsors img {
     max-width: 200px; }
-  /* line 75, ../_/sass/_modules.scss */
+  /* line 94, ../_/sass/_modules.scss */
   .sponsors a {
     color: white; }
 
-/* line 81, ../_/sass/_modules.scss */
+/* line 100, ../_/sass/_modules.scss */
 #footer {
   padding: 2em 0; }
 
-/* line 85, ../_/sass/_modules.scss */
+/* line 104, ../_/sass/_modules.scss */
 #footer p {
   margin-bottom: 0; }
 
-/* line 89, ../_/sass/_modules.scss */
+/* line 108, ../_/sass/_modules.scss */
 #footer ul {
   list-style-type: none;
   margin: 0; }
 
-/* line 94, ../_/sass/_modules.scss */
+/* line 113, ../_/sass/_modules.scss */
 #footer .divider {
   margin: .5em 0; }
 
-/* line 99, ../_/sass/_modules.scss */
+/* line 118, ../_/sass/_modules.scss */
 #copyright {
   background: linear-gradient(rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.5)), url(../img/treeline.jpg);
   background-size: cover;
   padding: 1em 0; }
-  /* line 111, ../_/sass/_modules.scss */
+  /* line 130, ../_/sass/_modules.scss */
   #copyright a {
     color: white; }
