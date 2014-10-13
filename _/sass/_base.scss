@@ -1,8 +1,8 @@
 //base stylesheet is for general, basic styles
 
-@import url("http://fonts.googleapis.com/css?family=Varela+Round");
+@import url('http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic');
 
-@import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic');
+@import url('http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic');
 
 @import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 
@@ -30,3 +30,74 @@
 }
 
 //Basic Styles ---------------------------------------------------
+
+p {
+	font: 400 1em $sans;
+	color: white;
+	margin-bottom: 1.25em;
+}
+
+
+h1 {
+	font: italic 700 2.25em $serif, serif;
+	margin-bottom: 30px;
+	text-align: center;
+	color: white;
+}
+
+.panel h1 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font: 700 1.75em $sans, sans-serif;
+	text-transform: uppercase;
+
+}
+
+h3 {
+	font: 900 1.3125em $serif, serif;
+	text-transform: uppercase;
+	color: $grey;
+}
+
+h4 {
+	font: 700 1.125em $sans, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 1.25rem;
+	color: white;
+}
+
+h5 {
+	font: italic 400 1em $sans, sans-serif;
+	margin-bottom: 1.25rem;
+}
+
+.divider {
+	border-top: solid 1px #CCCCCC;
+    clear: both;
+    height: .5px;
+    width: 100%; 
+}
+
+
+//Panel Styles ---------------------------------------------------
+.panel {
+	background-color: $grey;
+	border: none;
+	border-radius: 7px;
+	margin: 1em 0;
+}
+
+.panel ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.panel p {
+	margin-bottom: 0;
+}
+.panel .divider {
+	    margin: .5em 0;
+}

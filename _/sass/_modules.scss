@@ -1,0 +1,114 @@
+.contain-to-grid {
+  width: 100%;
+  background: $green; 
+  color: white;
+  }
+  .contain-to-grid .top-bar {
+    margin-bottom: 0; }
+
+// HEADER //
+.top-section {
+	height: 215px; 
+	background: 
+    /* top, transparent grey, faked with gradient */ 
+    linear-gradient(
+      rgba(12,12,12,0.6), 
+      rgba(12,12,12,0.6)
+    ),
+    /* bottom, image */
+    url(../img/log.jpg);
+	background-size:cover;
+}
+
+.header {
+	padding: 1em;
+}
+
+.logo {
+	height: 150px;
+	display: inline;
+}
+
+.top-bar {
+	height: 60px;
+	padding-top: 5px;
+	background: rgba(0, 0, 0, 0);
+	
+}
+
+
+// JUMBOTRON //
+.jumbotron {
+	margin: 2em auto;	
+	max-width: 1230px;
+}
+
+// HERO //
+.hero {
+	text-align: center;
+	color: white;
+	padding: 2em 0;
+	margin: 1em 0;
+	h1 {
+		color: white;
+	}
+	p {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	.panel {
+		background-color: white;
+	}
+}
+
+
+// FOOTER //
+.sponsors {
+	padding: 2em 0;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	
+	img {
+		max-width: 200px;
+	}
+	a {
+		color:white;
+	}
+}
+
+
+#footer {
+	padding: 2em 0;
+
+}
+#footer p {
+	margin-bottom: 0;
+}
+
+#footer ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+#footer .divider {
+	    margin: .5em 0;
+
+}
+
+#copyright {
+	background: 
+    /* top, transparent grey, faked with gradient */ 
+    linear-gradient(
+      rgba(12,12,12,0.5), 
+      rgba(12,12,12,0.5)
+    ),
+    /* bottom, image */
+    url(../img/treeline.jpg);
+	background-size:cover;
+	padding: 1em 0;
+	
+	a {
+		color: white;
+	}
+}

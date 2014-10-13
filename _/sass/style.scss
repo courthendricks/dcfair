@@ -13,13 +13,12 @@ Text Domain:  twenty-thirteen-child
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
-
-@import "compass";
-@import "compass/reset";
+@import "foundation.css";
+@import "normalize.css";
 
 @import "variables";
-@import "mixins";
 @import "base";
 @import "modules";
+
 
 

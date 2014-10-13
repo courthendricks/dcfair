@@ -3,14 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-	<link rel="stylesheet" href="css/my-styles.css" >
+    <title>Douglas County Complex and Speedway </title>
+	<link rel="stylesheet" href="_/sass/foundation.css" >
+	<link rel="stylesheet" href="css/style.css" >
 
-	<script>
-		$(document).foundation();
-$(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
-	</script>
     <script src="js/vendor/modernizr.js"></script>
     
   </head>
@@ -19,11 +15,16 @@ $(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
 	 <div class="contain-to-grid" style="background-color: #A19D96">
 		  <div class="top-section">
 			<nav class="top-bar" data-topbar>
-				
+		    	<div class="header">
+					 <h1 class="logo">
+				        <a href="index.html"><img src="img/logo.jpg"></a>
+				     </h1>
 					<div class="right">
-						<a href="#" class="small button">Sponsors</a>          
-						<a href="#" class="small alert button">DC Fair</a>          
+						<a href="#" class="">Sponsors</a>          
+						<a href="#" class="">DC Fair</a>          
 					</div>
+		    	</div>
+
 			</nav>
 		</div>
 	 </div>
@@ -32,11 +33,7 @@ $(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
 	<div class="contain-to-grid">
 	 <nav class="top-bar" data-topbar>
 	    <ul class="title-area">
-	    	<li class="name">
-				 <h1>
-			        <a href="index.html">Douglas County Fairgrounds</a>
-			     </h1>
-	    	</li>
+
 	    	<li class="toggle-topbar menu-icon">
 		    	<a href="#"><span></span></a>
 	    	</li>
@@ -70,7 +67,7 @@ $(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
 	        <li class="has-dropdown">
 	        	<a href="#">Forms</a>
 	        	<ul class="dropdown" >
-		        	<li><a href="#">???</a></li>
+		        	<li><a href="#">Vendor Forms</a></li>
 		        	<li class="divider"></li>
 		        	<li> <a href="#">Fair Exhibitor Forms</a></li>
 	        	</ul>
@@ -91,41 +88,42 @@ $(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
 	</div> <!-- END contain-to-grid -->
 	<!-- END NAVIGATION -->
     
-<!-- Event Section -->
+<!---------- THUMBNAIL SECTION ---------->    
 		<div >
 			<div class="jumbotron"> 
-		                <div class="item "><img src="http://placehold.it/240x400"></div>
-		                <div class="item "><img src="http://placehold.it/240x400"></div>
-		                <div class="item "><img src="http://placehold.it/240x400"></div>
-		                <div class="item "><img src="http://placehold.it/240x400"></div>
-		                <div class="item "><img src="http://placehold.it/240x400"></div>
+				<ul class="small-block-grid-5">
+					<li><img src="http://placehold.it/240x400"></li>
+					<li><img src="http://placehold.it/240x400"></li>
+					<li><img src="http://placehold.it/240x400"></li>
+					<li><img src="http://placehold.it/240x400"></li>
+					<li><img src="http://placehold.it/240x400"></li>
+
+				</ul>
 			</div>
 		</div>
-<!---------- OLD STUFF ---------->    
+<!---------- END THUMBNAIL SECTION ---------->    
     
     
     
         <div class="contain-to-grid">
-            <div class="outreach ">
-	            <h1>Welcome to the Douglas County Fairgrounds Complex</h1>
+            <div class="hero ">
+	            <h1>Welcome to the Douglas County Fairgrounds</h1>
 	            
-	              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+					<p>The Douglas County Fairgrounds Complex &amp; Speedway consists of 74 acres on the beautiful South Umpqua River in scenic Roseburg, Oregon. It is truly a year-round multi-purpose facility that hosts an average of 1,400-1,500 event days annually. Our facilities are capable of accommodating just about any type of event activity imaginable.
+The Douglas County Fairgrounds Complex is one of the premier multi-purpose event facilities in the Northwest.</p>
+					<p>We are also a full service complex offering assistance in event planning, food and beverage services and equipment needs for your event . . . whether you are expecting 50 people or thousands, our facilities and staff look forward to making your next event a resounding success!</p>
        
-		        <div class="row">
-			          <div class="large-6 medium-6 columns">
-			            <div class="callout panel">
+		        <div class="row data-equalizer">
+			          <div class="large-6 medium-6 columns panel" data-equalizer-watch>
 			              <h2>Planning and Event?</h2>
 			              <p>Cal Expo has been home to a wide variety of events since 1968, including: Cirque du Soleil, Governor's Inagural Ball, Sacramento Jazz Jubilee and the International Sportsman's Exposition. </p> <br>
 						  <a href="#" class="small button">Facilities Services</a>      
-			            </div>
 			          </div>
 			          
-			          <div class="large-6 medium-6 columns">
-			            <div class="callout panel">
+			          <div class="large-6 medium-6 columns panel" data-equalizer-watch>
 							<h2>Looking for an Event?</h2>
 			              <p>Cal Expo hosts exciting events, offers fun for children, and features seasonal attractions including the California State Fair, horse racing and Raging Waters theme park.</p> <br>
 						  <a href="#" class="small button">Event Calendar</a>  
-			            </div>
 			          </div>
 		        </div> <!-- End Row -->
 		        
@@ -141,7 +139,7 @@ $(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
       <div class="row">
     	<div class="large-12 medium-12 columns">    
 		<div class="panel">
-		        	<h3>Upcoming Events at the Fairgrounds</h3>
+		        	<h1>Upcoming Events at the Fairgrounds</h1>
 
 			<div class="row">
 				<div class="large-6 medium-6 columns">
@@ -164,7 +162,7 @@ $(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
 			        	<li><a href="#"><p>An Amazing Blog Post</p> <i>August 29, 2014</i></a></li>
 			        	<li class="divider"></li>
 		        	</ul>
-					<a href="#" class="small button">View Calendar</a>      
+				<a style="margin: 10px auto;" href="#" class="small button">View Calendar</a>      
 				</div>
 			</div> <!-- END ROW -->	    
         </div>
@@ -176,58 +174,57 @@ $(document).ready(function(){$('#introModal').foundation('reveal', 'open')});
    </div> <!-- END MAIN ROW -->
       
       
-      
+   <div class="sponsors">
+  	<div >
+  		<div class="row">
+	       <div class="large-4 medium-4 columns" >
+	    		<a href="#"><img src="img/sponsor-cascade.png"></a>
+	    	</div>
+	    	<div class="large-4 medium-4 columns" >
+	    		<a href="#"><img src="img/sponsor-clint.png"></a>
+	    	</div>
+	    	<div class="large-4 medium-4 columns" >
+	    		<a href="#"><img src="img/sponsor-nr.png"></a>
+	    	</div>
+	  	</div>
+  	</div>
+  </div>
+    
 
 
   	<div id="footer" class="contain-to-grid">
 	 	<div class="row">
 	 	
 	       <div class="large-3 medium-3 columns">
-	        	<p><h5>Contact Us</h5>541 957 7010 <br> 541 440 6023 (fax) <br> fairgrounds@co.douglas.or.us</p>
+	        	<p><h4>Contact Us</h4>541 957 7010 <br> 541 440 6023 (fax) <br> fairgrounds@co.douglas.or.us</p>
 
 
 	    	</div>
 	        <div class="large-3 medium-3 columns">
-	        	<p><h5>Visit Us</h5><b>Douglas County Fairgrounds</b> <br> 2110 SW Frear Street <br> Roseburg, OR 97471</p>
+	        	<p><h4>Visit Us</h4><b>Douglas County Fairgrounds</b> <br> 2110 SW Frear Street <br> Roseburg, OR 97471</p>
 	        </div>
 	        <div class="large-3 medium-3 columns">
-	        	<p><h5>Links</h5>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+	        	<p><h4>Connect With Us</h4>Facebook<br>Twitter<br>Pinterest</p>
 	        </div>        
 			<div class="large-3 medium-3 columns">
-	        	<p><h5>Sponsors</h5>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+	        	<p><h4>Community Links</h4>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
 	        </div> 
 		</div>
   	</div>
 
-  <div id="copyright"
-  	<div class="contain-to-grid">
+  <div id="copyright">
+  	<div >
   		<div class="row">
-	       <div class="large-6 medium-6 columns" >
+	       <div class="large-6 medium-12 small-12 columns" >
 	    		<a href="#">&copy; 2014 Douglas County Fairgrounds. All Rights Reserved.</a>
 	    	</div>
-	    	<div class="large-6 medium-6 columns" >
+	    	<div class="large-6 medium-12 small-12 columns" >
 	    		<a href="#">xxx</a>
 	    	</div>
 	  	</div>
   	</div>
   </div>
   
-  
-      <!-- Intro Modal -->
-		<div id="formModal" class="circle reveal-modal medium" data-reveal>
-		    <div id="contain-modal">
-
-			<h3>Where would you like to visit?</h3>
-			<a href="#" class="close-reveal-modal">&#215;</a>
-		 	<div class="row">
-	       <div class="large-6 medium-6 columns" style="background-color:grey;">
-	       <p></p>
-	       </div>
-	       <div class="large-6 medium-6 columns">
-	       </div>
-		</div>
-    </div>
-    <!-- End Intro Modal -->
 
 
     <script src="js/vendor/jquery.js"></script>
