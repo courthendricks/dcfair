@@ -12,8 +12,8 @@
 	background: 
     /* top, transparent grey, faked with gradient */ 
     linear-gradient(
-      rgba(12,12,12,0.6), 
-      rgba(12,12,12,0.6)
+      $transparentgrey, 
+      $transparentgrey
     ),
     /* bottom, image */
     url(../img/log.jpg);
@@ -84,7 +84,7 @@
 // FOOTER //
 .sponsors {
 	padding: 2em 0;
-	background-color: #6e6e6e;
+	background-color: $lightgrey;
 	color:white;
 	text-align: center;
 	
@@ -119,8 +119,8 @@
 	background: 
     /* top, transparent grey, faked with gradient */ 
     linear-gradient(
-      rgba(12,12,12,0.5), 
-      rgba(12,12,12,0.5)
+      $transparentgrey, 
+      $transparentgrey
     ),
     /* bottom, image */
     url(../img/treeline.jpg);

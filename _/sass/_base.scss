@@ -31,6 +31,10 @@
 
 //Basic Styles ---------------------------------------------------
 
+body {
+	background-color: $bggrey;
+}
+
 p {
 	font: 400 1.25em $sans;
 	line-height: 1.25;
