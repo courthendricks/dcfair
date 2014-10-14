@@ -190,3 +190,16 @@ h5 {
   /* line 130, ../_/sass/_modules.scss */
   #copyright a {
     color: white; }
+
+/* line 137, ../_/sass/_modules.scss */
+.main-copy {
+  color: #585c62; }
+  /* line 139, ../_/sass/_modules.scss */
+  .main-copy h1 {
+    color: #585c62; }
+  /* line 142, ../_/sass/_modules.scss */
+  .main-copy h3 {
+    color: #585c62; }
+  /* line 145, ../_/sass/_modules.scss */
+  .main-copy p {
+    color: #585c62; }
