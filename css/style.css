@@ -15,9 +15,9 @@ Text Domain:  twenty-thirteen-child
 @import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic");
 @import url("http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic");
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-/* line 14, ../_/sass/_variables.scss */
+/* line 15, ../_/sass/_variables.scss */
 .thing {
-  color: rgba(8, 13, 19, 0.5); }
+  color: #707376; }
 
 /* line 34, ../_/sass/_base.scss */
 body {
@@ -33,19 +33,19 @@ p {
 /* line 46, ../_/sass/_base.scss */
 h1 {
   font: italic 700 2.25em "Playfair Display", serif, serif;
-  margin-bottom: 30px;
   text-align: center;
   color: white; }
 
-/* line 53, ../_/sass/_base.scss */
+/* line 52, ../_/sass/_base.scss */
 .panel h1 {
   margin-bottom: 50px;
   text-align: center; }
 
-/* line 58, ../_/sass/_base.scss */
+/* line 57, ../_/sass/_base.scss */
 h2 {
   font: 700 1.75em "Quattrocento Sans", sans-serif, sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 1.5625em; }
 
 /* line 64, ../_/sass/_base.scss */
 h3 {
@@ -104,110 +104,150 @@ h5 {
 
 /* line 10, ../_/sass/_modules.scss */
 .top-section {
-  height: 215px;
+  height: 150px;
   background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/log.jpg);
   background-size: cover; }
 
 /* line 23, ../_/sass/_modules.scss */
 .header {
-  padding: 1em; }
+  padding: 1px 0px;
+  max-height: 210px; }
 
-/* line 27, ../_/sass/_modules.scss */
+/* line 28, ../_/sass/_modules.scss */
 .logo {
-  height: 150px;
+  max-width: 250px;
   display: inline; }
 
-/* line 32, ../_/sass/_modules.scss */
+/* line 33, ../_/sass/_modules.scss */
+.sign-top {
+  background: url(../img/signtop.png);
+  background-repeat: no-repeat;
+  width: 202px;
+  height: 94px;
+  -webkit-transition: -webkit-background 300ms ease-outse;
+  -moz-transition: -moz-background 300ms ease-out;
+  -ms-transition: -ms-background 300ms ease-out;
+  -o-transition: -o-background 300ms ease-out;
+  transition: background 300ms ease-out; }
+  /* line 43, ../_/sass/_modules.scss */
+  .sign-top:hover {
+    background: url(../img/sign-dcfair.png); }
+
+/* line 47, ../_/sass/_modules.scss */
+.sign-bottom {
+  background: url(../img/signbottom.png);
+  background-repeat: no-repeat;
+  width: 202px;
+  height: 45px;
+  -webkit-transition: -webkit-background 300ms ease-outse;
+  -moz-transition: -moz-background 300ms ease-out;
+  -ms-transition: -ms-background 300ms ease-out;
+  -o-transition: -o-background 300ms ease-out;
+  transition: background 300ms ease-out; }
+  /* line 57, ../_/sass/_modules.scss */
+  .sign-bottom:hover {
+    background: url(../img/sign-sponsors.png); }
+
+/* line 61, ../_/sass/_modules.scss */
 .top-bar {
   height: 60px;
-  padding-top: 5px;
   background: transparent; }
 
-/* line 41, ../_/sass/_modules.scss */
+/* line 70, ../_/sass/_modules.scss */
 .jumbotron {
   margin: 2em auto;
   max-width: 1230px; }
 
-/* line 47, ../_/sass/_modules.scss */
+/* line 76, ../_/sass/_modules.scss */
 .hero {
   text-align: center;
   color: white;
   padding: 2em 0;
   margin: 1em 0; }
-  /* line 52, ../_/sass/_modules.scss */
+  /* line 81, ../_/sass/_modules.scss */
   .hero h1 {
     color: white; }
-  /* line 55, ../_/sass/_modules.scss */
+  /* line 84, ../_/sass/_modules.scss */
   .hero p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 61, ../_/sass/_modules.scss */
+  /* line 90, ../_/sass/_modules.scss */
   .hero .panel {
     background-color: white; }
 
-/* line 68, ../_/sass/_modules.scss */
+/* line 97, ../_/sass/_modules.scss */
 .cal .panel {
   background-color: white; }
-/* line 71, ../_/sass/_modules.scss */
+/* line 100, ../_/sass/_modules.scss */
 .cal p {
-  color: #abc069; }
-/* line 74, ../_/sass/_modules.scss */
+  color: #abc069;
+  font-weight: 700;
+  font-style: italic; }
+/* line 105, ../_/sass/_modules.scss */
 .cal em {
-  font-style: normal; }
-/* line 77, ../_/sass/_modules.scss */
+  font-style: normal;
+  color: #585c62; }
+/* line 109, ../_/sass/_modules.scss */
 .cal .my-button {
   margin: 0 auto;
   text-align: center; }
 
-/* line 85, ../_/sass/_modules.scss */
+/* line 117, ../_/sass/_modules.scss */
 .sponsors {
   padding: 2em 0;
-  background-color: #696f79;
+  background-color: #707376;
   color: white;
   text-align: center; }
-  /* line 91, ../_/sass/_modules.scss */
+  /* line 123, ../_/sass/_modules.scss */
   .sponsors img {
     max-width: 200px; }
-  /* line 94, ../_/sass/_modules.scss */
+  /* line 126, ../_/sass/_modules.scss */
   .sponsors a {
     color: white; }
 
-/* line 100, ../_/sass/_modules.scss */
+/* line 132, ../_/sass/_modules.scss */
 #footer {
   padding: 2em 0; }
+  /* line 135, ../_/sass/_modules.scss */
+  #footer p {
+    margin-bottom: 0; }
+  /* line 139, ../_/sass/_modules.scss */
+  #footer ul {
+    list-style-type: none;
+    margin: 0; }
 
-/* line 104, ../_/sass/_modules.scss */
-#footer p {
-  margin-bottom: 0; }
-
-/* line 108, ../_/sass/_modules.scss */
-#footer ul {
-  list-style-type: none;
-  margin: 0; }
-
-/* line 113, ../_/sass/_modules.scss */
+/* line 146, ../_/sass/_modules.scss */
 #footer .divider {
   margin: .5em 0; }
 
-/* line 118, ../_/sass/_modules.scss */
+/* line 151, ../_/sass/_modules.scss */
 #copyright {
   background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/treeline.jpg);
   background-size: cover;
   padding: 1em 0; }
-  /* line 130, ../_/sass/_modules.scss */
+  /* line 163, ../_/sass/_modules.scss */
   #copyright a {
     color: white; }
 
-/* line 137, ../_/sass/_modules.scss */
+/* line 170, ../_/sass/_modules.scss */
 .main-copy {
   color: #585c62; }
-  /* line 139, ../_/sass/_modules.scss */
+  /* line 172, ../_/sass/_modules.scss */
   .main-copy h1 {
     color: #585c62; }
-  /* line 142, ../_/sass/_modules.scss */
+  /* line 175, ../_/sass/_modules.scss */
   .main-copy h3 {
     color: #585c62; }
-  /* line 145, ../_/sass/_modules.scss */
+  /* line 178, ../_/sass/_modules.scss */
   .main-copy p {
     color: #585c62; }
+  /* line 181, ../_/sass/_modules.scss */
+  .main-copy a {
+    color: #abc069;
+    text-decoration: none;
+    line-height: inherit; }
+    /* line 185, ../_/sass/_modules.scss */
+    .main-copy a:hover {
+      color: #abc069;
+      text-decoration: underline; }

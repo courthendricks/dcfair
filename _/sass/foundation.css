@@ -1767,7 +1767,8 @@ meta.foundation-mq-topbar {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
+  height: 60px;
+  vertical-align: middle;
   line-height: 45px;
   position: relative;
   background: #879556;
@@ -1870,7 +1871,7 @@ meta.foundation-mq-topbar {
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #778447;
+    border-top: solid 1px #c3d395;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -1882,8 +1883,8 @@ meta.foundation-mq-topbar {
       color: white;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-      font-size: 0.8125rem;
+      font-family: 'Quattrocento Sans', sans-serif;
+      font-size: 1em;
       font-weight: normal;
       text-transform: none; }
       .top-bar-section ul li > a.button {
@@ -2091,7 +2092,8 @@ meta.foundation-mq-topbar {
     .top-bar-section ul {
       width: auto;
       height: auto !important;
-      display: inline; }
+      display: inline; 
+      padding:.5em 0}
       .top-bar-section ul li {
         float: left; }
         .top-bar-section ul li .js-generated {
@@ -2740,7 +2742,7 @@ meta.foundation-mq-topbar {
     color: #333333; }
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
-    margin-bottom: 0.625rem; }
+    margin-bottom: 1rem; }
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
   .panel.callout {
@@ -3673,7 +3675,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7em;
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;

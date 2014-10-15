@@ -8,7 +8,7 @@
 
 // HEADER //
 .top-section {
-	height: 215px; 
+	height: 150px; 
 	background: 
     /* top, transparent grey, faked with gradient */ 
     linear-gradient(
@@ -21,18 +21,47 @@
 }
 
 .header {
-	padding: 1em;
+	padding: 1px 0px;
+	max-height: 210px;
 }
 
 .logo {
-	height: 150px;
+	max-width: 250px; 
 	display: inline;
 }
 
+.sign-top {
+	background: url(../img/signtop.png);
+	background-repeat: no-repeat;
+	width: 202px;
+	height: 94px;
+	-webkit-transition: -webkit-background 300ms ease-outse;
+	-moz-transition: -moz-background 300ms ease-out;
+	-ms-transition: -ms-background 300ms ease-out;
+	-o-transition: -o-background 300ms ease-out;
+	transition: background 300ms ease-out;
+	&:hover {
+		background: url(../img/sign-dcfair.png);
+	}
+}
+.sign-bottom {
+	background: url(../img/signbottom.png);
+	background-repeat: no-repeat;
+	width: 202px;
+	height: 45px;
+	-webkit-transition: -webkit-background 300ms ease-outse;
+	-moz-transition: -moz-background 300ms ease-out;
+	-ms-transition: -ms-background 300ms ease-out;
+	-o-transition: -o-background 300ms ease-out;
+	transition: background 300ms ease-out;
+	&:hover {
+		background: url(../img/sign-sponsors.png);
+	}
+}
 .top-bar {
 	height: 60px;
-	padding-top: 5px;
 	background: rgba(0, 0, 0, 0);
+
 	
 }
 
@@ -70,9 +99,12 @@
 	}
 	p {
 		color: $green;
+		font-weight: 700;
+		font-style: italic;
 	}
 	em {
 		font-style: normal;
+		color: $grey;
 	}
 	.my-button {
 		margin: 0 auto;
@@ -100,14 +132,15 @@
 #footer {
 	padding: 2em 0;
 
-}
-#footer p {
-	margin-bottom: 0;
-}
+	p {
+		margin-bottom: 0;
+		
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+	}
 
-#footer ul {
-	list-style-type: none;
-	margin: 0;
 }
 
 #footer .divider {
@@ -132,17 +165,26 @@
 	}
 }
 
-
+/////////////////////// EVENT PAGES ///////////////////////
 
 .main-copy {
 	color: $grey;
 	h1 {
-	color: $grey;
+		color: $grey;
 	}
 	h3 {
-	color: $grey;
+		color: $grey;
 	}
 	p {
-	color: $grey;
+		color: $grey;
 	}
+		a {
+			color: $green;
+			text-decoration: none;
+			line-height: inherit;
+			&:hover {
+			    color: $green;
+			    text-decoration: underline; 
+		    }
+		 }
 }

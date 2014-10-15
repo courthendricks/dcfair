@@ -45,7 +45,6 @@ p {
 
 h1 {
 	font: italic 700 2.25em $serif, serif;
-	margin-bottom: 30px;
 	text-align: center;
 	color: white;
 }
@@ -58,6 +57,7 @@ h1 {
 h2 {
 	font: 700 1.75em $sans, sans-serif;
 	text-transform: uppercase;
+	margin-bottom: 1.5625em;
 
 }
 
