@@ -36,9 +36,9 @@
 					s+='<li class="entry">';
 					s+='<h3>'+formatDate(item.gd$when[0].startTime,def.DateFormat.trim())+'</h3>'+'<h3>  |  </h3>';
 					def.ShowTimes?s+='<h3>'+formatDate(item.gd$when[0].startTime,'ShortTime')+' - '+formatDate(item.gd$when[0].endTime,'ShortTime')+'</h3>':null;
-					s+='<h2>Event:</h2>'+'<h2>'+item.title.$t+'</h2>';
+					s+='<h2>'+item.title.$t+'</h2>';
 					def.ShowDescription?s+='<div class="desc">'+item.content.$t+'</div>':null ;
-					item.gd$where[0].valueString?s+='<p class="location"><span></span><span>'+item.gd$where[0].valueString+'</span></p>':null;
+					item.gd$where[0].valueString?s+='<p class="location"><span>Location: </span><span>'+item.gd$where[0].valueString+'</span></p>':null;
 					s+='</li>';
 				});
 				$('#'+id).append(s);	

@@ -73,6 +73,16 @@
 .jumbotron {
 	margin: 2em auto;	
 	max-width: 1230px;
+	ul {
+		
+		li {
+			padding: 0 0.4rem 1.11111rem;
+			
+			img {
+				max-width: 100%;
+			}
+		}
+	}
 }
 
 // HERO //
@@ -103,24 +113,26 @@
 		ul {
 		  column-count: 2;
 		  column-gap: 0;
-		  width: 930px;
+		  width: 990px;
 		}
 		li {
 			display: inline-block;
 			width: 450px;
 		}
 		#calendarEvents {
-			width: 930px; 
 			margin-bottom: 1rem;
 			.entry {
 				border-bottom: solid 1px grey;
+				margin: 0 1rem 2rem 1rem;
 				p {
 					font-size: 1em;
+					margin-bottom: 1rem
 				}
 				h2 {
 					font: italic 700 1.3125em $sans, sans-serif;
 					color: $green;
 					text-transform: none;
+					margin-bottom: .25rem;
 				}
 				h3 {
 					
@@ -128,15 +140,14 @@
 					margin-top: 10px;
 					text-transform: uppercase;
 					font: 700 1.125em $sans, sans-serif;
-					color: $lightgrey;
+					color: $transparentgrey;
 				}
 				.location {
 					font-size: 1em;
 					color: $grey;
 					font-size: 16px;
 				}
-				&:nth-child(-n + 3) {margin-right: 5px; }
-				&:nth-child(n + 4) {margin-left: 5px; }
+
 			} // END .ENTRY
 		} // END #calendarEvents
 	} // END .PANEL
