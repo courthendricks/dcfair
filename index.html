@@ -142,30 +142,15 @@ The Douglas County Fairgrounds Complex is one of the premier multi-purpose event
       <div class="row cal">
     	<div class="large-12 medium-12 columns">    
 		<div class="panel">
+
 		        	<h1>Upcoming Events at the Fairgrounds</h1>
 
 			<div class="row">
-				<div class="large-6 medium-6 columns">
-	        		<ul >
-			        	<li><a href="#"><p>Halloween Bazaar</p> <em>October 31, 2014  |  4:00 pm - 8:00 pm</em></a></li>
-			        	<li class="divider"></li>
-			        	<li><a href="#"><p>Halloween Bazaar</p> <em>October 31, 2014  |  4:00 pm - 8:00 pm</em></a></li>
-			        	<li class="divider"></li>
-			        	<li><a href="#"><p>Halloween Bazaar</p> <em>October 31, 2014  |  4:00 pm - 8:00 pm</em></a></li>
-			        	<li class="divider"></li>
-		        	</ul>
+				<div class="large-12 medium-12 columns">
+					<ul id="calendarEvents">	</ul>
 				</div>
+
 				
-				<div class="large-6 medium-6 columns">
-	        		<ul >
-			        	<li><a href="#"><p>Halloween Bazaar</p> <em>October 31, 2014  |  4:00 pm - 8:00 pm</em></a></li>
-			        	<li class="divider"></li>
-			        	<li><a href="#"><p>Halloween Bazaar</p> <em>October 31, 2014  |  4:00 pm - 8:00 pm</em></a></li>
-			        	<li class="divider"></li>
-			        	<li><a href="#"><p>Halloween Bazaar</p> <em>October 31, 2014  |  4:00 pm - 8:00 pm</em></a></li>
-			        	<li class="divider"></li>
-		        	</ul>
-				</div>
 			</div> <!-- END ROW -->	    
 			<div class="my-button">
 				<a style="margin: 10px auto;" href="#" class="small button">View Calendar</a>      
@@ -239,6 +224,23 @@ The Douglas County Fairgrounds Complex is one of the premier multi-purpose event
 		$(document).foundation();
 		$(document).ready(function(){$('#formModal').foundation('reveal', 'open')});
 
+	</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<script language="JavaScript" type="text/javascript">	
+		$(document).ready(function () {
+			$("#calendarEvents").gCalEvents({
+				CalendarId: "douglascountyfair%40gmail.com",
+				ShowTimes: true,
+				ShowDescription: false,
+				NoEventsLang: "There are currently no events scheduled.",
+				TimeZone: "America/Los_Angeles",
+				FutureEvents: true,
+				MaxEvents: 6,
+				DateFormat: "DayMonth"
+			});
+		});
 	</script>
     <script src="http://localhost:35729/livereload.js"></script> 
  </body>

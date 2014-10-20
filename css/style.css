@@ -182,91 +182,123 @@ h5 {
 /* line 100, ../_/sass/_modules.scss */
 .cal .panel {
   background-color: white; }
-/* line 103, ../_/sass/_modules.scss */
-.cal p {
-  color: #abc069;
-  font-weight: 700;
-  font-style: italic; }
-/* line 108, ../_/sass/_modules.scss */
-.cal em {
-  font-style: normal;
-  color: #585c62; }
-/* line 112, ../_/sass/_modules.scss */
+  /* line 103, ../_/sass/_modules.scss */
+  .cal .panel ul {
+    column-count: 2;
+    column-gap: 0;
+    width: 930px; }
+  /* line 108, ../_/sass/_modules.scss */
+  .cal .panel li {
+    display: inline-block;
+    width: 450px; }
+  /* line 112, ../_/sass/_modules.scss */
+  .cal .panel #calendarEvents {
+    width: 930px; }
+    /* line 114, ../_/sass/_modules.scss */
+    .cal .panel #calendarEvents .entry {
+      border-bottom: solid 1px grey; }
+      /* line 116, ../_/sass/_modules.scss */
+      .cal .panel #calendarEvents .entry p {
+        font-size: 1em; }
+      /* line 119, ../_/sass/_modules.scss */
+      .cal .panel #calendarEvents .entry h2 {
+        font: italic 700 1.3125em "Quattrocento Sans", sans-serif, sans-serif;
+        color: #abc069;
+        text-transform: none; }
+      /* line 124, ../_/sass/_modules.scss */
+      .cal .panel #calendarEvents .entry h3 {
+        display: inline;
+        margin-top: 10px;
+        text-transform: uppercase;
+        font: 700 1.125em "Quattrocento Sans", sans-serif, sans-serif;
+        color: #707376; }
+      /* line 132, ../_/sass/_modules.scss */
+      .cal .panel #calendarEvents .entry .location {
+        font-size: 1em;
+        color: #585c62;
+        font-size: 16px; }
+      /* line 137, ../_/sass/_modules.scss */
+      .cal .panel #calendarEvents .entry:nth-child(-n + 3) {
+        margin-right: 5px; }
+      /* line 138, ../_/sass/_modules.scss */
+      .cal .panel #calendarEvents .entry:nth-child(n + 4) {
+        margin-left: 5px; }
+/* line 143, ../_/sass/_modules.scss */
 .cal .my-button {
   margin: 0 auto;
   text-align: center; }
 
-/* line 120, ../_/sass/_modules.scss */
+/* line 152, ../_/sass/_modules.scss */
 .sponsors {
   padding: 2em 0;
   background-color: #707376;
   color: white;
   text-align: center; }
-  /* line 126, ../_/sass/_modules.scss */
+  /* line 158, ../_/sass/_modules.scss */
   .sponsors img {
     max-width: 200px; }
-  /* line 129, ../_/sass/_modules.scss */
+  /* line 161, ../_/sass/_modules.scss */
   .sponsors a {
     color: white; }
 
-/* line 135, ../_/sass/_modules.scss */
+/* line 167, ../_/sass/_modules.scss */
 #footer {
   padding: 2em 0; }
-  /* line 138, ../_/sass/_modules.scss */
+  /* line 170, ../_/sass/_modules.scss */
   #footer p {
     margin-bottom: 0; }
-  /* line 142, ../_/sass/_modules.scss */
+  /* line 174, ../_/sass/_modules.scss */
   #footer ul {
     list-style-type: none;
     margin: 0; }
 
-/* line 149, ../_/sass/_modules.scss */
+/* line 181, ../_/sass/_modules.scss */
 #footer .divider {
   margin: .5em 0; }
 
-/* line 154, ../_/sass/_modules.scss */
+/* line 186, ../_/sass/_modules.scss */
 #copyright {
   background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/treeline.jpg);
   background-size: cover;
   padding: 1em 0; }
-  /* line 166, ../_/sass/_modules.scss */
+  /* line 198, ../_/sass/_modules.scss */
   #copyright a {
     color: white; }
 
-/* line 173, ../_/sass/_modules.scss */
+/* line 205, ../_/sass/_modules.scss */
 .main-copy {
   color: #585c62; }
-  /* line 175, ../_/sass/_modules.scss */
+  /* line 207, ../_/sass/_modules.scss */
   .main-copy h1 {
     color: #585c62; }
-  /* line 178, ../_/sass/_modules.scss */
+  /* line 210, ../_/sass/_modules.scss */
   .main-copy h3 {
     color: #585c62; }
-  /* line 181, ../_/sass/_modules.scss */
+  /* line 213, ../_/sass/_modules.scss */
   .main-copy p {
     color: #585c62; }
-  /* line 184, ../_/sass/_modules.scss */
+  /* line 216, ../_/sass/_modules.scss */
   .main-copy a {
     color: #abc069;
     text-decoration: none;
     line-height: inherit; }
-    /* line 188, ../_/sass/_modules.scss */
+    /* line 220, ../_/sass/_modules.scss */
     .main-copy a:hover {
       color: #abc069;
       text-decoration: underline; }
 
-/* line 196, ../_/sass/_modules.scss */
+/* line 228, ../_/sass/_modules.scss */
 .sidebar, .vendor {
   text-align: left;
   color: white; }
-  /* line 199, ../_/sass/_modules.scss */
+  /* line 231, ../_/sass/_modules.scss */
   .sidebar h1, .vendor h1 {
     color: white; }
-  /* line 202, ../_/sass/_modules.scss */
+  /* line 234, ../_/sass/_modules.scss */
   .sidebar p, .vendor p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 208, ../_/sass/_modules.scss */
+  /* line 240, ../_/sass/_modules.scss */
   .sidebar .panel, .vendor .panel {
     background-color: white; }
