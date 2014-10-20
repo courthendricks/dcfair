@@ -110,15 +110,18 @@ h5 {
 
 /* line 23, ../_/sass/_modules.scss */
 .header {
-  padding: 1px 0px;
+  padding: 1px;
   max-height: 210px; }
 
 /* line 28, ../_/sass/_modules.scss */
 .logo {
-  max-width: 250px;
   display: inline; }
+  /* line 29, ../_/sass/_modules.scss */
+  .logo img {
+    max-width: 250px;
+    margin-top: 1em; }
 
-/* line 33, ../_/sass/_modules.scss */
+/* line 36, ../_/sass/_modules.scss */
 .sign-top {
   background: url(../img/signtop.png);
   background-repeat: no-repeat;
@@ -129,11 +132,11 @@ h5 {
   -ms-transition: -ms-background 300ms ease-out;
   -o-transition: -o-background 300ms ease-out;
   transition: background 300ms ease-out; }
-  /* line 43, ../_/sass/_modules.scss */
+  /* line 46, ../_/sass/_modules.scss */
   .sign-top:hover {
     background: url(../img/sign-dcfair.png); }
 
-/* line 47, ../_/sass/_modules.scss */
+/* line 50, ../_/sass/_modules.scss */
 .sign-bottom {
   background: url(../img/signbottom.png);
   background-repeat: no-repeat;
@@ -144,110 +147,126 @@ h5 {
   -ms-transition: -ms-background 300ms ease-out;
   -o-transition: -o-background 300ms ease-out;
   transition: background 300ms ease-out; }
-  /* line 57, ../_/sass/_modules.scss */
+  /* line 60, ../_/sass/_modules.scss */
   .sign-bottom:hover {
     background: url(../img/sign-sponsors.png); }
 
-/* line 61, ../_/sass/_modules.scss */
+/* line 64, ../_/sass/_modules.scss */
 .top-bar {
   height: 60px;
   background: transparent; }
 
-/* line 70, ../_/sass/_modules.scss */
+/* line 73, ../_/sass/_modules.scss */
 .jumbotron {
   margin: 2em auto;
   max-width: 1230px; }
 
-/* line 76, ../_/sass/_modules.scss */
+/* line 79, ../_/sass/_modules.scss */
 .hero {
   text-align: center;
   color: white;
   padding: 2em 0;
   margin: 1em 0; }
-  /* line 81, ../_/sass/_modules.scss */
+  /* line 84, ../_/sass/_modules.scss */
   .hero h1 {
     color: white; }
-  /* line 84, ../_/sass/_modules.scss */
+  /* line 87, ../_/sass/_modules.scss */
   .hero p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 90, ../_/sass/_modules.scss */
+  /* line 93, ../_/sass/_modules.scss */
   .hero .panel {
     background-color: white; }
 
-/* line 97, ../_/sass/_modules.scss */
+/* line 100, ../_/sass/_modules.scss */
 .cal .panel {
   background-color: white; }
-/* line 100, ../_/sass/_modules.scss */
+/* line 103, ../_/sass/_modules.scss */
 .cal p {
   color: #abc069;
   font-weight: 700;
   font-style: italic; }
-/* line 105, ../_/sass/_modules.scss */
+/* line 108, ../_/sass/_modules.scss */
 .cal em {
   font-style: normal;
   color: #585c62; }
-/* line 109, ../_/sass/_modules.scss */
+/* line 112, ../_/sass/_modules.scss */
 .cal .my-button {
   margin: 0 auto;
   text-align: center; }
 
-/* line 117, ../_/sass/_modules.scss */
+/* line 120, ../_/sass/_modules.scss */
 .sponsors {
   padding: 2em 0;
   background-color: #707376;
   color: white;
   text-align: center; }
-  /* line 123, ../_/sass/_modules.scss */
+  /* line 126, ../_/sass/_modules.scss */
   .sponsors img {
     max-width: 200px; }
-  /* line 126, ../_/sass/_modules.scss */
+  /* line 129, ../_/sass/_modules.scss */
   .sponsors a {
     color: white; }
 
-/* line 132, ../_/sass/_modules.scss */
+/* line 135, ../_/sass/_modules.scss */
 #footer {
   padding: 2em 0; }
-  /* line 135, ../_/sass/_modules.scss */
+  /* line 138, ../_/sass/_modules.scss */
   #footer p {
     margin-bottom: 0; }
-  /* line 139, ../_/sass/_modules.scss */
+  /* line 142, ../_/sass/_modules.scss */
   #footer ul {
     list-style-type: none;
     margin: 0; }
 
-/* line 146, ../_/sass/_modules.scss */
+/* line 149, ../_/sass/_modules.scss */
 #footer .divider {
   margin: .5em 0; }
 
-/* line 151, ../_/sass/_modules.scss */
+/* line 154, ../_/sass/_modules.scss */
 #copyright {
   background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/treeline.jpg);
   background-size: cover;
   padding: 1em 0; }
-  /* line 163, ../_/sass/_modules.scss */
+  /* line 166, ../_/sass/_modules.scss */
   #copyright a {
     color: white; }
 
-/* line 170, ../_/sass/_modules.scss */
+/* line 173, ../_/sass/_modules.scss */
 .main-copy {
   color: #585c62; }
-  /* line 172, ../_/sass/_modules.scss */
+  /* line 175, ../_/sass/_modules.scss */
   .main-copy h1 {
     color: #585c62; }
-  /* line 175, ../_/sass/_modules.scss */
+  /* line 178, ../_/sass/_modules.scss */
   .main-copy h3 {
     color: #585c62; }
-  /* line 178, ../_/sass/_modules.scss */
+  /* line 181, ../_/sass/_modules.scss */
   .main-copy p {
     color: #585c62; }
-  /* line 181, ../_/sass/_modules.scss */
+  /* line 184, ../_/sass/_modules.scss */
   .main-copy a {
     color: #abc069;
     text-decoration: none;
     line-height: inherit; }
-    /* line 185, ../_/sass/_modules.scss */
+    /* line 188, ../_/sass/_modules.scss */
     .main-copy a:hover {
       color: #abc069;
       text-decoration: underline; }
+
+/* line 196, ../_/sass/_modules.scss */
+.sidebar, .vendor {
+  text-align: left;
+  color: white; }
+  /* line 199, ../_/sass/_modules.scss */
+  .sidebar h1, .vendor h1 {
+    color: white; }
+  /* line 202, ../_/sass/_modules.scss */
+  .sidebar p, .vendor p {
+    max-width: 1000px;
+    margin: 0 auto 10px auto;
+    line-height: 1.25; }
+  /* line 208, ../_/sass/_modules.scss */
+  .sidebar .panel, .vendor .panel {
+    background-color: white; }

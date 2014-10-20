@@ -21,12 +21,15 @@
 }
 
 .header {
-	padding: 1px 0px;
+	padding: 1px;
 	max-height: 210px;
 }
 
 .logo {
+	img {
 	max-width: 250px; 
+	margin-top: 1em;
+	}
 	display: inline;
 }
 
@@ -187,4 +190,22 @@
 			    text-decoration: underline; 
 		    }
 		 }
+}
+
+
+.sidebar, .vendor {
+	text-align: left;
+	color: white;
+	h1 {
+		color: white;
+	}
+	p {
+		max-width: 1000px;
+		margin: 0 auto 10px auto;
+		line-height: 1.25;
+
+	}
+	.panel {
+		background-color: white;
+	}
 }
