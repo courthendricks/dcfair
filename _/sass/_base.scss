@@ -42,6 +42,13 @@ p {
 	margin-bottom: 1.25em;
 }
 
+a {
+		  -webkit-transition: -webkit-color 300ms ease-out;
+		  -moz-transition: -moz-color 300ms ease-out;
+		  -ms-transition: -ms-color 300ms ease-out;
+		  -o-transition: -o-color 300ms ease-out;
+		  transition: color 300ms ease-out;
+}
 
 h1 {
 	font: italic 700 2.25em $serif, serif;

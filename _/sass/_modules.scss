@@ -1,10 +1,13 @@
 .contain-to-grid {
-  width: 100%;
-  background: $green; 
-  color: white;
+	  width: 100%;
+	  background: $green; 
+	  color: white;
   }
+
+  
   .contain-to-grid .top-bar {
-    margin-bottom: 0; }
+    margin-bottom: 0; 
+   }
 
 // HEADER //
 .top-section {
@@ -38,7 +41,7 @@
 	background-repeat: no-repeat;
 	width: 202px;
 	height: 94px;
-	-webkit-transition: -webkit-background 300ms ease-outse;
+	-webkit-transition: -webkit-background 300ms ease-out;
 	-moz-transition: -moz-background 300ms ease-out;
 	-ms-transition: -ms-background 300ms ease-out;
 	-o-transition: -o-background 300ms ease-out;
@@ -52,7 +55,7 @@
 	background-repeat: no-repeat;
 	width: 202px;
 	height: 45px;
-	-webkit-transition: -webkit-background 300ms ease-outse;
+	-webkit-transition: -webkit-background 300ms ease-out;
 	-moz-transition: -moz-background 300ms ease-out;
 	-ms-transition: -ms-background 300ms ease-out;
 	-o-transition: -o-background 300ms ease-out;
@@ -73,58 +76,57 @@
 .jumbotron {
 	margin: 2em auto;	
 	max-width: 1200px;
-	position: relative;
 	
-	ul {		  
-		.cap-left { 
-		  padding: 0 0.4rem 1.11111rem;
-		  max-width: 238px;
-		  height: 400px;
-		  
+	  ul {
+	  	max-height: 400px;
+	  
+		li { 
+		  display: block; 
 		  position: relative; 
+		  float: left; 
 		  overflow: hidden; 
-		  float: left;
 		  
-		  &:before {
-			  bottom: 10px; left: 10px;
-		  }
 		  &:hover figcaption {
-			  left: 0;
+			  opacity: 1;
 		  }
-		  
-		  img {
-			max-width: 100%;
-		  }
+		}
+		
 		  h2 {
 			font-size: 35px;
 			font-weight: 500; 
-		   	padding: 70% 5% 0 5%;
+		   	padding: 90% 5% 0 5%;
+		   	margin: 0;
+		   	max-width: 400px;
 		  }
 		  
+		
+			figcaption { 
+				bottom: 0; 
+				left: -30%;
+				-webkit-transform: rotate(90deg);
+				-moz-transform: rotate(90deg);
+				-o-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				transform: rotate(90deg);
+				transform-origin: right top 0;
+				position: absolute; 
+				background: rgba(0,0,0,0.5); 
+				margin: 0 0 2px 0;
+				color: white; 
+				padding: -20px  -20px; 
+				opacity: 0;
+				width: 100%;
+				height: 100%;
+				-webkit-transition: all 0.6s ease;
+				-moz-transition:    all 0.6s ease;
+				-o-transition:      all 0.6s ease;
+				-ms-transition:		all 0.6s ease;
+			}
 		}
-		figcaption { 
-			bottom: 0; 
-			left: -30%;
-		   -webkit-transform: rotate(90deg);
-		   -moz-transform: rotate(90deg);
-		   -o-transform: rotate(90deg);
-		   -ms-transform: rotate(90deg);
-		   transform: rotate(90deg);
-		      	transform-origin: right top 0;
-		  position: absolute; 
-		  background: rgba(0,0,0,0.5); 
-		  color: white; 
-		  padding: -20px  -20px; 
-		  opacity: 0;
-		  width: 100%;
-		  height: 100%;
-		  -webkit-transition: all 0.6s ease;
-		  -moz-transition:    all 0.6s ease;
-		  -o-transition:      all 0.6s ease;
-		}
-	}
+	
 }
 
+.cap-left:hover figcaption { left: 0; }
 
 // HERO //
 .hero {
@@ -219,15 +221,32 @@
 
 #footer {
 	padding: 2em 0;
+	 a {
+		  color: white;
+		  border-bottom: solid 1px $darkgreen;
+		  -webkit-transition: -webkit-color 300ms ease-out;
+		  -moz-transition: -moz-color 300ms ease-out;
+		  -ms-transition: -ms-color 300ms ease-out;
+		  -o-transition: -o-color 300ms ease-out;
+		  transition: color 300ms ease-out;
+		  &:hover {
+			  color: $darkgreen;
+		  }
+	}
+
 
 	p {
 		margin-bottom: 0;
 		
+		a {
+			color: white;
+		}
 	}
 	ul {
 		list-style-type: none;
 		margin: 0;
 	}
+
 
 }
 
@@ -247,10 +266,8 @@
     url(../img/treeline.jpg);
 	background-size:cover;
 	padding: 1em 0;
-	
-	a {
-		color: white;
-	}
+	font-size: .875em;
+	margin-bottom: 0;
 }
 
 /////////////////////// EVENT PAGES ///////////////////////
@@ -266,15 +283,7 @@
 	p {
 		color: $grey;
 	}
-		a {
-			color: $green;
-			text-decoration: none;
-			line-height: inherit;
-			&:hover {
-			    color: $green;
-			    text-decoration: underline; 
-		    }
-		 }
+
 }
 
 
