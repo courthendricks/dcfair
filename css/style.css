@@ -113,7 +113,7 @@ h5 {
 /* line 13, ../_/sass/_modules.scss */
 .top-section {
   height: 150px;
-  background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/log.jpg);
+  background: linear-gradient(rgba(8, 13, 19, 0.7), rgba(8, 13, 19, 0.7)), url(../img/log.jpg);
   background-size: cover; }
 
 /* line 26, ../_/sass/_modules.scss */
@@ -180,14 +180,14 @@ h5 {
       /* line 89, ../_/sass/_modules.scss */
       .jumbotron ul li:hover figcaption {
         opacity: 1; }
-    /* line 94, ../_/sass/_modules.scss */
+    /* line 95, ../_/sass/_modules.scss */
     .jumbotron ul h2 {
       font-size: 35px;
       font-weight: 500;
       padding: 90% 5% 0 5%;
       margin: 0;
       max-width: 400px; }
-    /* line 103, ../_/sass/_modules.scss */
+    /* line 104, ../_/sass/_modules.scss */
     .jumbotron ul figcaption {
       bottom: 0;
       left: -30%;
@@ -210,91 +210,91 @@ h5 {
       -o-transition: all 0.6s ease;
       -ms-transition: all 0.6s ease; }
 
-/* line 129, ../_/sass/_modules.scss */
+/* line 131, ../_/sass/_modules.scss */
 .cap-left:hover figcaption {
   left: 0; }
 
-/* line 132, ../_/sass/_modules.scss */
+/* line 134, ../_/sass/_modules.scss */
 .hero {
   text-align: center;
   color: white;
   padding: 2em 0;
   margin: 1em 0; }
-  /* line 137, ../_/sass/_modules.scss */
+  /* line 139, ../_/sass/_modules.scss */
   .hero h1 {
     color: white; }
-  /* line 140, ../_/sass/_modules.scss */
+  /* line 142, ../_/sass/_modules.scss */
   .hero p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 146, ../_/sass/_modules.scss */
+  /* line 148, ../_/sass/_modules.scss */
   .hero .panel {
     background-color: white; }
 
-/* line 153, ../_/sass/_modules.scss */
+/* line 155, ../_/sass/_modules.scss */
 .cal .panel {
   background-color: white; }
-  /* line 156, ../_/sass/_modules.scss */
+  /* line 158, ../_/sass/_modules.scss */
   .cal .panel ul {
     column-count: 2;
     column-gap: 0;
     width: 990px; }
-  /* line 161, ../_/sass/_modules.scss */
+  /* line 163, ../_/sass/_modules.scss */
   .cal .panel li {
     display: inline-block;
     width: 450px; }
-  /* line 165, ../_/sass/_modules.scss */
+  /* line 167, ../_/sass/_modules.scss */
   .cal .panel #calendarEvents {
     margin-bottom: 1rem; }
-    /* line 167, ../_/sass/_modules.scss */
+    /* line 169, ../_/sass/_modules.scss */
     .cal .panel #calendarEvents .entry {
       border-bottom: solid 1px grey;
       margin: 0 1rem 2rem 1rem; }
-      /* line 170, ../_/sass/_modules.scss */
+      /* line 172, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry p {
         font-size: 1em;
         margin-bottom: 1rem; }
-      /* line 174, ../_/sass/_modules.scss */
+      /* line 176, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry h2 {
         font: italic 700 1.3125em "Quattrocento Sans", sans-serif, sans-serif;
         color: #abc069;
         text-transform: none;
         margin-bottom: .25rem; }
-      /* line 180, ../_/sass/_modules.scss */
+      /* line 182, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry h3 {
         display: inline;
         margin-top: 10px;
         text-transform: uppercase;
         font: 700 1.125em "Quattrocento Sans", sans-serif, sans-serif;
         color: rgba(8, 13, 19, 0.5); }
-      /* line 188, ../_/sass/_modules.scss */
+      /* line 190, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry .location {
         font-size: 1em;
         color: #585c62;
         font-size: 16px; }
-/* line 198, ../_/sass/_modules.scss */
+/* line 200, ../_/sass/_modules.scss */
 .cal .my-button {
   margin: 0 auto;
   text-align: center; }
 
-/* line 207, ../_/sass/_modules.scss */
+/* line 209, ../_/sass/_modules.scss */
 .sponsors {
   padding: 2em 0;
   background-color: #707376;
   color: white;
   text-align: center; }
-  /* line 213, ../_/sass/_modules.scss */
+  /* line 215, ../_/sass/_modules.scss */
   .sponsors img {
     max-width: 200px; }
-  /* line 216, ../_/sass/_modules.scss */
+  /* line 218, ../_/sass/_modules.scss */
   .sponsors a {
     color: white; }
 
-/* line 222, ../_/sass/_modules.scss */
+/* line 224, ../_/sass/_modules.scss */
 #footer {
   padding: 2em 0; }
-  /* line 224, ../_/sass/_modules.scss */
+  /* line 226, ../_/sass/_modules.scss */
   #footer a {
     color: white;
     border-bottom: solid 1px #879556;
@@ -303,25 +303,25 @@ h5 {
     -ms-transition: -ms-color 300ms ease-out;
     -o-transition: -o-color 300ms ease-out;
     transition: color 300ms ease-out; }
-    /* line 232, ../_/sass/_modules.scss */
+    /* line 234, ../_/sass/_modules.scss */
     #footer a:hover {
       color: #879556; }
-  /* line 238, ../_/sass/_modules.scss */
+  /* line 240, ../_/sass/_modules.scss */
   #footer p {
     margin-bottom: 0; }
-    /* line 241, ../_/sass/_modules.scss */
+    /* line 243, ../_/sass/_modules.scss */
     #footer p a {
       color: white; }
-  /* line 245, ../_/sass/_modules.scss */
+  /* line 247, ../_/sass/_modules.scss */
   #footer ul {
     list-style-type: none;
     margin: 0; }
 
-/* line 253, ../_/sass/_modules.scss */
+/* line 255, ../_/sass/_modules.scss */
 #footer .divider {
   margin: .5em 0; }
 
-/* line 258, ../_/sass/_modules.scss */
+/* line 260, ../_/sass/_modules.scss */
 #copyright {
   background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/treeline.jpg);
   background-size: cover;
@@ -329,31 +329,31 @@ h5 {
   font-size: .875em;
   margin-bottom: 0; }
 
-/* line 275, ../_/sass/_modules.scss */
+/* line 277, ../_/sass/_modules.scss */
 .main-copy {
   color: #585c62; }
-  /* line 277, ../_/sass/_modules.scss */
+  /* line 279, ../_/sass/_modules.scss */
   .main-copy h1 {
     color: #585c62; }
-  /* line 280, ../_/sass/_modules.scss */
+  /* line 282, ../_/sass/_modules.scss */
   .main-copy h3 {
     color: #585c62; }
-  /* line 283, ../_/sass/_modules.scss */
+  /* line 285, ../_/sass/_modules.scss */
   .main-copy p {
     color: #585c62; }
 
-/* line 290, ../_/sass/_modules.scss */
+/* line 292, ../_/sass/_modules.scss */
 .sidebar, .vendor {
   text-align: left;
   color: white; }
-  /* line 293, ../_/sass/_modules.scss */
+  /* line 295, ../_/sass/_modules.scss */
   .sidebar h1, .vendor h1 {
     color: white; }
-  /* line 296, ../_/sass/_modules.scss */
+  /* line 298, ../_/sass/_modules.scss */
   .sidebar p, .vendor p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 302, ../_/sass/_modules.scss */
+  /* line 304, ../_/sass/_modules.scss */
   .sidebar .panel, .vendor .panel {
     background-color: white; }

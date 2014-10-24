@@ -15,8 +15,8 @@
 	background: 
     /* top, transparent grey, faked with gradient */ 
     linear-gradient(
-      $transparentgrey, 
-      $transparentgrey
+      rgba(8,13,19,0.7), 
+      rgba(8,13,19,0.7)
     ),
     /* bottom, image */
     url(../img/log.jpg);
@@ -89,6 +89,7 @@
 		  &:hover figcaption {
 			  opacity: 1;
 		  }
+
 		}
 		
 		  h2 {
@@ -125,6 +126,7 @@
 		}
 	
 }
+
 
 .cap-left:hover figcaption { left: 0; }
 
@@ -303,3 +305,8 @@
 		background-color: white;
 	}
 }
+
+
+/////////////////////// CALENDAR PAGE ///////////////////////
+
+
