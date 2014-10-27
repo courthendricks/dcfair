@@ -3,10 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Douglas County Complex and Speedway </title>
+    <title>Douglas County Fairgrounds Complex &amp; Speedway </title>
 	<link rel="stylesheet" href="css/foundation.css" >
 	<link rel="stylesheet" href="css/normalize.css" >
 	<link rel="stylesheet" href="css/style.css" >
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<!-- Gateway Page -->
+	<script src="js/jquery.cookie.js"></script>
+	<script> 
+		$(function() {
+			var COOKIE_NAME = 'fairgrounds-gateway';
+			$go = $.cookie(COOKIE_NAME);
+			if ($go == null) {
+				$.cookie(COOKIE_NAME, 'test', { path: '/', expires: 1 });
+				window.location = "gateway.html"
+			}
+			else {
+			}
+		});
+	</script>
 
     <script src="js/vendor/modernizr.js"></script>
     
@@ -225,17 +241,15 @@ The Douglas County Fairgrounds Complex is one of the premier multi-purpose event
   </div>
   
 
-
-    <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+	<!-- Modal -->
 	<script>
 		$(document).foundation();
 		$(document).ready(function(){$('#formModal').foundation('reveal', 'open')});
-
 	</script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	
+	<!-- Google Cal Events -->
 	<script src="js/jquery.gcal-events.js"></script>
-
 	<script language="JavaScript" type="text/javascript">	
 		$(document).ready(function () {
 			$("#calendarEvents").gCalEvents({
