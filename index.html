@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/style.css" >
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script src="js/vendor/modernizr.js"></script>
+	
 	<!-- Gateway Page -->
 	<script src="js/jquery.cookie.js"></script>
 	<script> 
@@ -250,7 +250,12 @@ The Douglas County Fairgrounds Complex is one of the premier multi-purpose event
   
 
     <script src="js/foundation.min.js"></script>
-
+	<!-- Modal -->
+	<script>
+		$(document).foundation();
+		$(document).ready(function(){$('#formModal').foundation('reveal', 'open')});
+	</script>
+	
 	<!-- Google Cal Events -->
 	<script src="js/jquery.gcal-events.js"></script>
 	<script language="JavaScript" type="text/javascript">	
