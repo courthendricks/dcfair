@@ -413,3 +413,8 @@ h5 {
   /* line 376, ../_/sass/_modules.scss */
   .sidebar .panel, .vendor .panel {
     background-color: white; }
+
+/* line 386, ../_/sass/_modules.scss */
+.mission {
+  max-width: 700px;
+  margin: 0 auto 3em auto; }
