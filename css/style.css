@@ -391,21 +391,24 @@ h5 {
   .main-copy h3 {
     color: #585c62; }
   /* line 345, ../_/sass/_modules.scss */
+  .main-copy h4 {
+    color: #585c62; }
+  /* line 348, ../_/sass/_modules.scss */
   .main-copy p {
     color: #585c62; }
 
-/* line 352, ../_/sass/_modules.scss */
+/* line 355, ../_/sass/_modules.scss */
 .sidebar, .vendor {
   text-align: left;
   color: white; }
-  /* line 355, ../_/sass/_modules.scss */
+  /* line 358, ../_/sass/_modules.scss */
   .sidebar h1, .vendor h1 {
     color: white; }
-  /* line 358, ../_/sass/_modules.scss */
+  /* line 361, ../_/sass/_modules.scss */
   .sidebar p, .vendor p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 364, ../_/sass/_modules.scss */
+  /* line 367, ../_/sass/_modules.scss */
   .sidebar .panel, .vendor .panel {
     background-color: white; }

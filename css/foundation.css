@@ -3472,7 +3472,7 @@ ul.pagination {
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
       background: #e8e8e8; }
     .accordion .accordion-navigation > a, .accordion dd > a {
-      background: #efefef;
+      background: #D1D1D1;
       color: #222222;
       padding: 1rem;
       display: block;
