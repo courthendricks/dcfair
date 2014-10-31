@@ -1,4 +1,5 @@
 $green: #abc069;
+$transparentgreen: rgba(171,191,105,0.94);
 $lightgreen: #c5d29c;
 $palegreen: #c3d395;
 $darkgreen: #879556;
@@ -14,5 +15,6 @@ $sans: 'Quattrocento Sans', sans-serif;
 $default-border-radius: 7px;
 
 .thing {
-	color: #707376;
+	color: rgba(171,191,105,0.94);
+
 }

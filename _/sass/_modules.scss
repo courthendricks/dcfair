@@ -136,6 +136,15 @@
 	color: white;
 	padding: 2em 0;
 	margin: 1em 0;
+	background: 
+    /* top, transparent grey, faked with gradient */ 
+    linear-gradient(
+      $transparentgreen, 
+      $transparentgreen
+    ),
+    /* bottom, image */
+    url(../img/wood.jpg);
+
 	h1 {
 		color: white;
 	}
