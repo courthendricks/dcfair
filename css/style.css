@@ -414,11 +414,39 @@ h5 {
   .sidebar .panel, .vendor .panel {
     background-color: white; }
 
-/* line 386, ../_/sass/_modules.scss */
+/* line 384, ../_/sass/_modules.scss */
+.my-calendar {
+  background-color: white;
+  padding: 2em 0; }
+
+/* line 389, ../_/sass/_modules.scss */
+#loading {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 50%; }
+
+/* line 396, ../_/sass/_modules.scss */
+#calendar {
+  max-width: 970px;
+  margin: 0 auto;
+  font-size: 14px; }
+  /* line 400, ../_/sass/_modules.scss */
+  #calendar table {
+    margin-bottom: 0;
+    background: transparent; }
+  /* line 404, ../_/sass/_modules.scss */
+  #calendar table thead {
+    background: none; }
+  /* line 407, ../_/sass/_modules.scss */
+  #calendar tbody {
+    background: none; }
+
+/* line 412, ../_/sass/_modules.scss */
 .single-column {
   max-width: 700px;
   margin: 0 auto 3em auto; }
 
-/* line 391, ../_/sass/_modules.scss */
+/* line 417, ../_/sass/_modules.scss */
 iframe {
   width: 100%; }

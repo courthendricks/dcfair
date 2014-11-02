@@ -1094,7 +1094,7 @@ button, .button {
   text-decoration: none;
   text-align: center;
   -webkit-appearance: none;
-  -webkit-border-radius: 7px;
+  -webkit-border-radius: 5px;
   display: inline-block;
   padding-top: 1rem;
   padding-right: 2rem;
@@ -1182,8 +1182,8 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008cba;
-    border-color: #585c62;
+    background-color: #cccccc;
+    border: none;
     color: white;
     cursor: default;
     opacity: 0.7;
@@ -1193,7 +1193,7 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008cba; }
+      background-color: #cccccc; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -1891,7 +1891,7 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #008cba;
+        background-color: #585c62;
         border-color: #007095;
         color: white; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -1934,7 +1934,7 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #008cba;
+      background-color: #585c62;
       border-color: #007095;
       color: white; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -1978,7 +1978,7 @@ meta.foundation-mq-topbar {
       background: #879556;
       color: white; }
     .top-bar-section ul li.active > a {
-      background: #008cba;
+      background: #585c62;
       color: white; }
       .top-bar-section ul li.active > a:hover {
         background: #0078a0;
@@ -2212,7 +2212,7 @@ meta.foundation-mq-topbar {
     background: #879556;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: #585c62;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
