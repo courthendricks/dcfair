@@ -267,8 +267,9 @@ a.expand {
   max-width: 1200px;
   overflow: hidden; }
   /* line 174, ../_/sass/_modules.scss */
-  .jumbotron h4 {
-    text-align: center; }
+  .jumbotron h1 {
+    text-align: center;
+    font-size: 38px; }
 
 /* JUMBOTRON 
 .effects {
@@ -357,7 +358,7 @@ a.expand {
   width: 100%;
 }
 */
-/* line 268, ../_/sass/_modules.scss */
+/* line 269, ../_/sass/_modules.scss */
 .hero {
   text-align: center;
   color: white;
@@ -365,81 +366,81 @@ a.expand {
   margin: 1em 0;
   background: linear-gradient(rgba(171, 191, 105, 0.94), rgba(171, 191, 105, 0.94)), url(../img/wood.jpg);
   background-size: cover; }
-  /* line 282, ../_/sass/_modules.scss */
+  /* line 283, ../_/sass/_modules.scss */
   .hero h1 {
     color: white; }
-  /* line 285, ../_/sass/_modules.scss */
+  /* line 286, ../_/sass/_modules.scss */
   .hero p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 291, ../_/sass/_modules.scss */
+  /* line 292, ../_/sass/_modules.scss */
   .hero .panel {
     background-color: white; }
 
-/* line 298, ../_/sass/_modules.scss */
+/* line 299, ../_/sass/_modules.scss */
 .cal .panel {
   background-color: white; }
-  /* line 301, ../_/sass/_modules.scss */
+  /* line 302, ../_/sass/_modules.scss */
   .cal .panel ul {
     column-count: 2;
     column-gap: 0;
     width: 990px; }
-  /* line 306, ../_/sass/_modules.scss */
+  /* line 307, ../_/sass/_modules.scss */
   .cal .panel li {
     display: inline-block;
     width: 450px; }
-  /* line 310, ../_/sass/_modules.scss */
+  /* line 311, ../_/sass/_modules.scss */
   .cal .panel #calendarEvents {
     margin-bottom: 1rem; }
-    /* line 312, ../_/sass/_modules.scss */
+    /* line 313, ../_/sass/_modules.scss */
     .cal .panel #calendarEvents .entry {
       border-bottom: solid 1px grey;
       margin: 0 1rem 2rem 1rem; }
-      /* line 315, ../_/sass/_modules.scss */
+      /* line 316, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry p {
         font-size: 1em;
         margin-bottom: 1rem; }
-      /* line 319, ../_/sass/_modules.scss */
+      /* line 320, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry h2 {
         font: italic 700 1.3125em "Quattrocento Sans", sans-serif, sans-serif;
         color: #abc069;
         text-transform: none;
         margin-bottom: .25rem; }
-      /* line 325, ../_/sass/_modules.scss */
+      /* line 326, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry h3 {
         display: inline;
         margin-top: 10px;
         text-transform: uppercase;
         font: 700 1.125em "Quattrocento Sans", sans-serif, sans-serif;
         color: rgba(8, 13, 19, 0.5); }
-      /* line 333, ../_/sass/_modules.scss */
+      /* line 334, ../_/sass/_modules.scss */
       .cal .panel #calendarEvents .entry .location {
         font-size: 1em;
         color: #585c62;
         font-size: 16px; }
-/* line 343, ../_/sass/_modules.scss */
+/* line 344, ../_/sass/_modules.scss */
 .cal .my-button {
   margin: 0 auto;
   text-align: center; }
 
-/* line 352, ../_/sass/_modules.scss */
+/* line 353, ../_/sass/_modules.scss */
 .sponsors {
   padding: 2em 0;
   background-color: #707376;
   color: white;
   text-align: center; }
-  /* line 358, ../_/sass/_modules.scss */
+  /* line 359, ../_/sass/_modules.scss */
   .sponsors img {
     max-width: 200px; }
-  /* line 361, ../_/sass/_modules.scss */
+  /* line 362, ../_/sass/_modules.scss */
   .sponsors a {
     color: white; }
 
-/* line 367, ../_/sass/_modules.scss */
+/* line 368, ../_/sass/_modules.scss */
 #footer {
   padding: 2em 0; }
-  /* line 369, ../_/sass/_modules.scss */
+  /* line 370, ../_/sass/_modules.scss */
   #footer a {
     color: white;
     border-bottom: solid 1px #879556;
@@ -448,25 +449,25 @@ a.expand {
     -ms-transition: -ms-color 300ms ease-out;
     -o-transition: -o-color 300ms ease-out;
     transition: color 300ms ease-out; }
-    /* line 377, ../_/sass/_modules.scss */
+    /* line 378, ../_/sass/_modules.scss */
     #footer a:hover {
       color: #879556; }
-  /* line 383, ../_/sass/_modules.scss */
+  /* line 384, ../_/sass/_modules.scss */
   #footer p {
     margin-bottom: 0; }
-    /* line 386, ../_/sass/_modules.scss */
+    /* line 387, ../_/sass/_modules.scss */
     #footer p a {
       color: white; }
-  /* line 390, ../_/sass/_modules.scss */
+  /* line 391, ../_/sass/_modules.scss */
   #footer ul {
     list-style-type: none;
     margin: 0; }
 
-/* line 398, ../_/sass/_modules.scss */
+/* line 399, ../_/sass/_modules.scss */
 #footer .divider {
   margin: .5em 0; }
 
-/* line 403, ../_/sass/_modules.scss */
+/* line 404, ../_/sass/_modules.scss */
 #copyright {
   background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/treeline.jpg);
   background-size: cover;
@@ -474,7 +475,7 @@ a.expand {
   font-size: .875em;
   margin-bottom: 0; }
 
-/* line 419, ../_/sass/_modules.scss */
+/* line 420, ../_/sass/_modules.scss */
 .page-wrapper {
   width: 100%;
   height: 100%;
@@ -482,14 +483,14 @@ a.expand {
   background: url(../img/gateway-bg.jpg) no-repeat;
   background-size: cover; }
 
-/* line 427, ../_/sass/_modules.scss */
+/* line 428, ../_/sass/_modules.scss */
 #gateway {
   text-align: center;
   max-width: 723px;
   padding: 0;
   margin: 0 auto;
   height: 100%; }
-  /* line 436, ../_/sass/_modules.scss */
+  /* line 437, ../_/sass/_modules.scss */
   #gateway .dcfair {
     width: 100%;
     height: 50%;
@@ -500,12 +501,12 @@ a.expand {
     -ms-transition: -ms-opacity 300ms ease-out;
     -o-transition: -o-opacity 300ms ease-out;
     transition: opacity 300ms ease-out; }
-    /* line 446, ../_/sass/_modules.scss */
+    /* line 447, ../_/sass/_modules.scss */
     #gateway .dcfair:hover {
       opacity: 0.8;
       filter: alpha(opacity=40);
       /* For IE8 and earlier */ }
-  /* line 452, ../_/sass/_modules.scss */
+  /* line 453, ../_/sass/_modules.scss */
   #gateway .grounds {
     width: 100%;
     height: 50%;
@@ -516,54 +517,54 @@ a.expand {
     -ms-transition: -ms-opacity 300ms ease-out;
     -o-transition: -o-opacity 300ms ease-out;
     transition: opacity 300ms ease-out; }
-    /* line 462, ../_/sass/_modules.scss */
+    /* line 463, ../_/sass/_modules.scss */
     #gateway .grounds:hover {
       opacity: 0.8;
       filter: alpha(opacity=40);
       /* For IE8 and earlier */ }
 
-/* line 475, ../_/sass/_modules.scss */
+/* line 476, ../_/sass/_modules.scss */
 .main-copy {
   color: #585c62; }
-  /* line 477, ../_/sass/_modules.scss */
+  /* line 478, ../_/sass/_modules.scss */
   .main-copy h1 {
     color: #585c62;
     text-align: left; }
-  /* line 482, ../_/sass/_modules.scss */
+  /* line 483, ../_/sass/_modules.scss */
   .main-copy h2 {
     margin-bottom: 0; }
-  /* line 485, ../_/sass/_modules.scss */
+  /* line 486, ../_/sass/_modules.scss */
   .main-copy h3 {
     color: #585c62; }
-  /* line 488, ../_/sass/_modules.scss */
+  /* line 489, ../_/sass/_modules.scss */
   .main-copy h4 {
     color: #585c62; }
-  /* line 491, ../_/sass/_modules.scss */
+  /* line 492, ../_/sass/_modules.scss */
   .main-copy p {
     color: #585c62; }
 
-/* line 498, ../_/sass/_modules.scss */
+/* line 499, ../_/sass/_modules.scss */
 .sidebar, .vendor {
   text-align: left;
   color: white; }
-  /* line 501, ../_/sass/_modules.scss */
+  /* line 502, ../_/sass/_modules.scss */
   .sidebar h1, .vendor h1 {
     color: white; }
-  /* line 504, ../_/sass/_modules.scss */
+  /* line 505, ../_/sass/_modules.scss */
   .sidebar p, .vendor p {
     max-width: 1000px;
     margin: 0 auto 10px auto;
     line-height: 1.25; }
-  /* line 510, ../_/sass/_modules.scss */
+  /* line 511, ../_/sass/_modules.scss */
   .sidebar .panel, .vendor .panel {
     background-color: white; }
 
-/* line 520, ../_/sass/_modules.scss */
+/* line 521, ../_/sass/_modules.scss */
 .single-column {
   max-width: 700px;
   margin: 0 auto 3em auto; }
 
-/* line 525, ../_/sass/_modules.scss */
+/* line 526, ../_/sass/_modules.scss */
 iframe {
   width: 100%; }
 
@@ -573,58 +574,58 @@ iframe {
 |* ------------------------------------------------------------ *|
 \* ------------------------------------------------------------ */
 @media only screen and (max-width: 1100px) {
-  /* line 536, ../_/sass/_modules.scss */
+  /* line 537, ../_/sass/_modules.scss */
   .effects {
     padding-left: 5px; }
 
-  /* line 539, ../_/sass/_modules.scss */
+  /* line 540, ../_/sass/_modules.scss */
   .effects .img {
     width: 50%; }
 
-  /* line 542, ../_/sass/_modules.scss */
+  /* line 543, ../_/sass/_modules.scss */
   .effects .img:nth-child(n) {
     margin-right: 5px; }
 
-  /* line 545, ../_/sass/_modules.scss */
+  /* line 546, ../_/sass/_modules.scss */
   .effects .img:first-child {
     margin-left: 0; }
 
-  /* line 548, ../_/sass/_modules.scss */
+  /* line 549, ../_/sass/_modules.scss */
   .effects .img:nth-child(2n-1) {
     margin-left: -5px; }
 
-  /* line 551, ../_/sass/_modules.scss */
+  /* line 552, ../_/sass/_modules.scss */
   .effects .img:nth-child(2n) {
     margin-right: 0; }
 
-  /* line 554, ../_/sass/_modules.scss */
+  /* line 555, ../_/sass/_modules.scss */
   .effects .img:last-child {
     margin-right: 0; } }
 @media only screen and (max-width: 520px) {
-  /* line 559, ../_/sass/_modules.scss */
+  /* line 560, ../_/sass/_modules.scss */
   .effects .img {
     width: 100%; }
 
-  /* line 562, ../_/sass/_modules.scss */
+  /* line 563, ../_/sass/_modules.scss */
   .effects .img:nth-child(n) {
     margin-right: 0; }
 
-  /* line 565, ../_/sass/_modules.scss */
+  /* line 566, ../_/sass/_modules.scss */
   .effects .img:first-child {
     margin-left: 0; }
 
-  /* line 568, ../_/sass/_modules.scss */
+  /* line 569, ../_/sass/_modules.scss */
   .effects .img:nth-child(2n-1) {
     margin-left: 0; }
 
-  /* line 571, ../_/sass/_modules.scss */
+  /* line 572, ../_/sass/_modules.scss */
   .effects .img:nth-child(2n) {
     margin-right: 0; }
 
-  /* line 574, ../_/sass/_modules.scss */
+  /* line 575, ../_/sass/_modules.scss */
   .effects .img:last-child {
     margin-right: 0; }
 
-  /* line 577, ../_/sass/_modules.scss */
+  /* line 578, ../_/sass/_modules.scss */
   .effects .img img {
     margin: 0 auto; } }
