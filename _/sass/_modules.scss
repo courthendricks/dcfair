@@ -12,6 +12,7 @@
 // HEADER //
 .top-section {
 	height: 150px; 
+	margin-top: -20px;
 	background: 
     /* top, transparent grey, faked with gradient */ 
     linear-gradient(
@@ -403,6 +404,9 @@ a.expand {
 	}
 	p {
 		color: $grey;
+	}
+	img {
+		margin: 1em 0;
 	}
 
 }
