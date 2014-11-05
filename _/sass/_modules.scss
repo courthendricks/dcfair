@@ -176,94 +176,6 @@ a.expand {
 		font-size: 38px;
 	}
 }
-/* JUMBOTRON 
-.effects {
-  padding-left: 15px;
-}
-.effects .img {
-  position: relative;
-  float:left;
-  margin-bottom: 5px;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.effects .img img {
-  display: block;
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-}
-
-.overlay {
-  display: block;
-  position: absolute;
-  z-index: 20;
-  background: rgba(0, 0, 0, 0.8);
-  overflow: hidden;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-}
-
-a.close-overlay {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 100;
-  width: 45px;
-  height: 45px;
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 45px;
-  text-align: left;
-  background-color: #000;
-  cursor: pointer;
-}
-a.close-overlay.hidden {
-  display: none;
-}
-
-a.expand {
-	display: block;
-	position: absolute;
-	z-index: 100;
-	width: 350px;
-	height: 100px;
-	padding-top: 280px;
-
-	text-align: left;
-	color: #fff;
-	font-size: 35px;
-	font-weight: 500; 
-	line-height: 40px;
-	font-weight: 700;
-	font-size: 30px;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-  transform-origin: right top 0;
-  top: 0;
-  bottom: 0;
-  left: 25%;
-  margin: auto 0 auto -30px;
-}
-.img.hover .overlay {
-  width: 100%;
-}
-*/
-
 
 // HERO //
 .hero {
@@ -516,7 +428,33 @@ a.expand {
 
 /////////////////////// CALENDAR PAGE ///////////////////////
 
+.my-calendar {
+	background-color: white;
+	padding: 2em 0;
+}
 
+	#loading {
+		display: none;
+		position: absolute;
+		top: 10px;
+		left:50%;
+	}
+
+	#calendar {
+		max-width: 970px;
+		margin: 0 auto;
+		font-size: 14px;
+		table {
+			margin-bottom: 0;
+			background: rgba(0,0,0,0);
+		}
+		table thead {
+			background: none;
+		}
+		tbody {
+			background: none;
+		}
+	}
 /////////////////////// Mission PAGE ///////////////////////
 .single-column {
 	max-width: 700px;
