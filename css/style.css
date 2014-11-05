@@ -355,6 +355,9 @@ a.expand {
 #footer {
   padding: 2em 0; }
   /* line 283, ../_/sass/_modules.scss */
+  #footer p {
+    line-height: 2; }
+  /* line 286, ../_/sass/_modules.scss */
   #footer a {
     color: white;
     border-bottom: solid 1px #879556;
@@ -363,31 +366,28 @@ a.expand {
     -ms-transition: -ms-color 300ms ease-out;
     -o-transition: -o-color 300ms ease-out;
     transition: color 300ms ease-out; }
-    /* line 291, ../_/sass/_modules.scss */
+    /* line 294, ../_/sass/_modules.scss */
     #footer a:hover {
       color: #879556; }
-  /* line 297, ../_/sass/_modules.scss */
-  #footer p {
-    margin-bottom: 0; }
-    /* line 300, ../_/sass/_modules.scss */
-    #footer p a {
-      color: white; }
-  /* line 304, ../_/sass/_modules.scss */
+  /* line 300, ../_/sass/_modules.scss */
   #footer ul {
     list-style-type: none;
     margin: 0; }
 
-/* line 312, ../_/sass/_modules.scss */
+/* line 308, ../_/sass/_modules.scss */
 #footer .divider {
   margin: .5em 0; }
 
-/* line 317, ../_/sass/_modules.scss */
+/* line 313, ../_/sass/_modules.scss */
 #copyright {
   background: linear-gradient(rgba(8, 13, 19, 0.5), rgba(8, 13, 19, 0.5)), url(../img/treeline.jpg);
   background-size: cover;
   padding: 1em 0;
   font-size: .875em;
   margin-bottom: 0; }
+  /* line 326, ../_/sass/_modules.scss */
+  #copyright p {
+    margin-bottom: 0; }
 
 /* line 333, ../_/sass/_modules.scss */
 .page-wrapper {

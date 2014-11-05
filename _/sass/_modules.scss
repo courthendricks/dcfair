@@ -280,26 +280,22 @@ a.expand {
 
 #footer {
 	padding: 2em 0;
-	 a {
-		  color: white;
-		  border-bottom: solid 1px $darkgreen;
-		  -webkit-transition: -webkit-color 300ms ease-out;
-		  -moz-transition: -moz-color 300ms ease-out;
-		  -ms-transition: -ms-color 300ms ease-out;
-		  -o-transition: -o-color 300ms ease-out;
-		  transition: color 300ms ease-out;
-		  &:hover {
-			  color: $darkgreen;
-		  }
-	}
-
-
 	p {
-		margin-bottom: 0;
-		
-		a {
-			color: white;
+		line-height: 2;
 		}
+		 a {
+			  color: white;
+			  border-bottom: solid 1px $darkgreen;
+			  -webkit-transition: -webkit-color 300ms ease-out;
+			  -moz-transition: -moz-color 300ms ease-out;
+			  -ms-transition: -ms-color 300ms ease-out;
+			  -o-transition: -o-color 300ms ease-out;
+			  transition: color 300ms ease-out;
+			  &:hover {
+				  color: $darkgreen;
+			  }
+
+
 	}
 	ul {
 		list-style-type: none;
@@ -327,6 +323,10 @@ a.expand {
 	padding: 1em 0;
 	font-size: .875em;
 	margin-bottom: 0;
+	p {
+		margin-bottom: 0;
+
+	}
 }
 
 /////////////////////// GATEWAY PAGE ///////////////////////
