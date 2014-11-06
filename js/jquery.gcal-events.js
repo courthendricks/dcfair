@@ -83,7 +83,7 @@
 
 			} else {
 				arrDate = /(\d+)\-(\d+)\-(\d+)/.exec(strDate);
-				time = 'Time not present in feed.';
+				time = ' ';
 			}
 
 			year 		= parseInt(arrDate[1]);				
