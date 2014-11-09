@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Douglas County Fairgrounds Complex &amp; Speedway </title>
-	<link rel="stylesheet" href="css/foundation.css" >
-	<link rel="stylesheet" href="css/normalize.css" >
-	<link rel="stylesheet" href="css/style.css" >
+    <title>Douglas County Fair</title>
+	<link rel="stylesheet" href="../css/foundation.css" >
+	<link rel="stylesheet" href="../css/normalize.css" >
+	<link rel="stylesheet" href="../css/style.css" >
+
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	
 	<!-- Gateway Page -->
-	<script src="js/jquery.cookie.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
 	<script> 
 		$(function() {
 			var COOKIE_NAME = 'fairgrounds-gateway';
@@ -25,39 +26,6 @@
 		});
 	</script>
 
-<script src="js/vendor/modernizr.js"></script>
-<script>
-    $(document).ready(function(){
-        if (Modernizr.touch) {
-            // show the close overlay button
-            $(".close-overlay").removeClass("hidden");
-            // handle the adding of hover class when clicked
-            $(".img").click(function(e){
-                if (!$(this).hasClass("hover")) {
-                    $(this).addClass("hover");
-                }
-            });
-            // handle the closing of the overlay
-            $(".close-overlay").click(function(e){
-                e.preventDefault();
-                e.stopPropagation();
-                if ($(this).closest(".img").hasClass("hover")) {
-                    $(this).closest(".img").removeClass("hover");
-                }
-            });
-        } else {
-            // handle the mouseenter functionality
-            $(".img").mouseenter(function(){
-                $(this).addClass("hover");
-            })
-            // handle the mouseleave functionality
-            .mouseleave(function(){
-                $(this).removeClass("hover");
-            });
-        }
-    });
-</script>
-    
   </head>
   <body>
 	 
@@ -65,9 +33,6 @@
 		  <div class="top-section">
 			<nav class="top-bar" data-topbar>
 		    	<div class="header">
-					 <h1 class="logo">
-				        <a href="index.html"><img src="img/logo.png"></a>
-				     </h1>
 				     <div class="right">
 				     	<a href="fair/index.html"><div class=" sign-top"></div></a>
 					 	<a href="sponsors.html"><div class=" sign-bottom"></div></a>
@@ -93,41 +58,30 @@
 	      	<li>
 		      	<a href="index.html">Home</a>
 	      	</li>
+	      	<li>
+		      	<a href="entertainment.html">Entertainment</a>
+	      	</li>
 	        <li class="has-dropdown">
-	        	<a>Events</a>
+	        	<a>Attractions</a>
 	        	<ul class="dropdown" >
-		        	<li><a href="fair/index.html">DC Fair</a></li>
-		        	<li><a href="christmas.html">Christmas Fair</a></li>
-		        	<li><a href="sportsman.html">Sportsmen's Show</a></li>
-		        	<li> <a href="poker.html">Poker Craze</a></li>
-		        	<li> <a href="brew.html">Brew Ha Ha</a></li>
+		        	<li><a href="livestock.html">Livestock</a></li>
+		        	<li><a href="rides.html">Rides</a></li>
+		        	<li><a href="food.html">Food</a></li>
+		        	<li> <a href="exhibits.html">Exhibits</a></li>
 	        	</ul>
-	        </li>
-	        <li >
-	        	<a href="calendar.html">Calendar</a>
-	        	
 	        </li>	        
 	        <li class="has-dropdown">
-	        	<a>Facilities</a>
+	        	<a>Visitor Info</a>
 	        	<ul class="dropdown" >
-		        	<li><a href="buildings.html">Buildings</a></li>
-		        	<li> <a href="arenas.html">Arenas</a></li>
-		        	<li><a href="grandstands.html">Grandstands</a></li>
-		        	<li><a href="rvpark.html">RV Park</a></li>
-		        	<li class="divider"></li>
-		        	<li><a href="rentalform.html">Rental Inquiry Form</a></li>
+		        	<li><a href="transportation.html">Transportation</a></li>
+		        	<li> <a href="accessibility.html">Accessibility</a></li>
+		        	<li><a href="directions.html">Map & Directions</a></li>
+		        	<li><a href="specials.html">Daily Specials</a></li>
 	        	</ul>
 	        </li>
-		    <li>
-		    	<a href="catering.html">Catering</a>
-		    </li>
-	        <li class="has-dropdown">
-	        	<a>About</a>
-	        	<ul class="dropdown" >
-		        	<li><a href="aboutus.html">Contacts</a></li>
-		        	<li><a href="location.html">Find Us</a></li>
-	        	</ul>
-	        </li>
+	      	<li>
+		      	<a href="exhibitors.html">Exhibitors</a>
+	      	</li>
 	      </ul>
 	    </section> <!-- END top-bar-section -->
 	 </nav>
@@ -135,48 +89,11 @@
 	<!-- END NAVIGATION -->
     
     
-<!---------- THUMBNAIL SECTION ---------->
+<!---------- Slider SECTION ---------->
    <div class="jumbotron">
-	    <div id="effect-3" class="small-block-grid-5 effects">
-	            <div class="img">
-					<img src="img/thumb-fair.jpg" alt="">
-	                <div class="overlay">
-	                    <a href="fair/index.html" class="expand"><h1>Douglas County Fair</h1></a>
-	                    <a class="close-overlay hidden">x</a>
-	                </div>
-	            </div>
-	            <div class="img">
-					<img src="img/thumb-christmas.jpg" alt="">
-	                <div class="overlay">
-	                    <a href="christmas.html" class="expand"><h1>Christmas Craft Fair</h1></a>
-	                    <a class="close-overlay hidden">x</a>
-	                </div>
-	            </div>
-	            <div class="img">
-					<img src="img/thumb-catering.jpg" alt="">
-	                <div class="overlay">
-	                    <a href="catering.html" class="expand"><h1>Catering Services</h1></a>
-	                    <a class="close-overlay hidden">x</a>
-	                </div>
-	            </div>
-	            <div class="img">
-					<img src="img/thumb-sports.jpg" alt="">
-	                <div class="overlay">
-	                    <a href="sportsman.html" class="expand"><h1>Sportsmen's Show</h1></a>
-	                    <a class="close-overlay hidden">x</a>
-	                </div>
-	            </div>
-	            <div class="img">
-					<img src="img/thumb-poker.jpg" alt="">
-	                <div class="overlay">
-	                    <a href="poker.html" class="expand"><h1>Poker Craze </h1></a>
-	                    <a class="close-overlay hidden">x</a>
-	                </div>
-	            </div>
-	            
-	        </div>
+   
    </div>
-<!---------- END THUMBNAIL SECTION ---------->    
+<!---------- END Slider SECTION ---------->    
     
     
     
@@ -272,16 +189,16 @@
 	        </div>
 			<div class="large-3 medium-3 columns">
 	        	<p><h4>Community Links</h4>
-	        		<a href="http://www.visitroseburg.com/" target="_blank">Visitor's Center</a><br>
-	        		<a href="http://www.co.douglas.or.us/">Douglas County Government</a><br>	        		
-	        		<a href="http://www.oregonfairs.org/"target="_blank">Oregon Fairs Association</a>
+	        		<a href="#">Douglas County Fair</a><br>
+	        		<a href="http://dcspeedway.org/" target="_blank">Douglas County Speedway</a><br>
+	        		<a href="https://www.facebook.com/dcmuseum"target="_blank">Douglas County Museum</a>
 	        	</p>
 	        </div> 
 	        <div class="large-3 medium-3 columns">
 	        	<p><h4>Connect With Us</h4>
-		        	<a href="https://www.facebook.com/douglascountyfair"target="_blank"><i class="fa fa-facebook-square"></i>Facebook</a><br>
-		        	<a href="https://www.youtube.com/user/DouglasFairgrounds/feed"target="_blank"><i class="fa fa-youtube-play"></i>YouTube</a><br>
-		        	<a href="http://www.pinterest.com/dcfair1"target="_blank"><i class="fa fa-pinterest"></i>Pinterest</a>
+		        	<a href="https://www.facebook.com/douglascountyfair"target="_blank">Facebook</a>
+		        	<br><a href="https://www.youtube.com/user/DouglasFairgrounds/feed"target="_blank">YouTube</a>
+		        	<br><a href="http://www.pinterest.com/dcfair1"target="_blank">Pinterest</a>
 	        	</p>
 	        </div>        
 		</div>
@@ -298,29 +215,8 @@
   </div>
   
 
-    <script src="js/foundation.min.js"></script>
-	<!-- Modal -->
-	<script>
-		$(document).foundation();
-		$(document).ready(function(){$('#formModal').foundation('reveal', 'open')});
-	</script>
-	
-	<!-- Google Cal Events -->
-	<script src="js/jquery.gcal-events.js"></script>
-	<script language="JavaScript" type="text/javascript">	
-		$(document).ready(function () {
-			$("#calendarEvents").gCalEvents({
-				CalendarId: "douglascountyfair%40gmail.com",
-				ShowTimes: true,
-				ShowDescription: false,
-				NoEventsLang: "There are currently no events scheduled.",
-				TimeZone: "America/Los_Angeles",
-				FutureEvents: true,
-				MaxEvents: 6,
-				DateFormat: "DayMonth"
-			});
-		});
-	</script>
+    <script src="../js/foundation.min.js"></script>
+
     <script src="http://localhost:35729/livereload.js"></script> 
  </body>
 </html>

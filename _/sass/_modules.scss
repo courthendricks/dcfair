@@ -177,6 +177,14 @@ a.expand {
 		font-size: 38px;
 		margin-top: -20px;
 		line-height: 1;
+		-webkit-transition: -webkit-color 300ms ease-out;
+		-moz-transition: -moz-color 300ms ease-out;
+		-ms-transition: -ms-color 300ms ease-out;
+		-o-transition: -o-color 300ms ease-out;
+		transition: color 300ms ease-out;
+		&:hover {
+			color: $lightgrey;
+		}
 	}
 }
 
