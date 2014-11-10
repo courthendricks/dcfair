@@ -1767,7 +1767,7 @@ meta.foundation-mq-topbar {
 
 .top-bar {
   overflow: hidden;
-  height: 60px;
+  height: 45px;
   vertical-align: middle;
   line-height: 45px;
   position: relative;
@@ -1851,11 +1851,11 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #abc069; }
     .top-bar.expanded .toggle-topbar a {
-      color: #888888; }
+      color: white; }
       .top-bar.expanded .toggle-topbar a span::after {
-        box-shadow: 0 0px 0 1px #888888, 0 7px 0 1px #888888, 0 14px 0 1px #888888; }
+        box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white; }
 
 .top-bar-section {
   left: 0;
@@ -1871,12 +1871,12 @@ meta.foundation-mq-topbar {
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #c3d395;
+    border-top: solid 1px #879556;			
     clear: both;
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #333333; }
+    background: #abbf69; }
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
@@ -1891,7 +1891,7 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #585c62;
+        background-color: #595c62;
         border-color: #007095;
         color: white; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -2093,7 +2093,7 @@ meta.foundation-mq-topbar {
       width: auto;
       height: auto !important;
       display: inline; 
-      padding:.5em 0}
+      padding: 0}
       .top-bar-section ul li {
         float: left; }
         .top-bar-section ul li .js-generated {
@@ -3692,7 +3692,7 @@ h3 {
   font-size: 1.375rem; }
 
 h4 {
-  font-size: 1.125rem; }
+  font: 700 1.125em 'Quattrocento Sans', sans-serif; }
 
 h5 {
   font-size: 1.125rem; }

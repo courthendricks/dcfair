@@ -6,10 +6,14 @@
 
   
   .contain-to-grid .top-bar {
-    margin-bottom: 0; 
+    margin-bottom: 0;
    }
 
 // HEADER //
+.top {
+	background-color: $grey;
+}
+
 .top-section {
 	height: 150px; 
 	margin-top: -20px;
@@ -66,7 +70,6 @@
 	}
 }
 .top-bar {
-	height: 60px;
 	background: rgba(0, 0, 0, 0);
 
 	
@@ -234,7 +237,7 @@ a.expand {
 		#calendarEvents {
 			margin-bottom: 1rem;
 			.entry {
-				border-bottom: solid 1px grey;
+				border-bottom: solid 1px #dddddd;
 				margin: 0 1rem 2rem 1rem;
 				p {
 					font-size: 1em;
@@ -278,7 +281,19 @@ a.expand {
 	background-color: $lightgrey;
 	color:white;
 	text-align: center;
-	
+
+
+	li {
+		-webkit-transition: -webkit-opacity 300ms ease-out;
+		-moz-transition: -moz-opacity 300ms ease-out;
+		-ms-transition: -ms-opacity 300ms ease-out;
+		-o-transition: -o-opacity 300ms ease-out;
+		transition: opacity 300ms ease-out;
+		&:hover {
+			 opacity: 0.8;
+			 filter: alpha(opacity=40); /* For IE8 and earlier */
+		}
+	}
 	img {
 		max-width: 200px;
 	}

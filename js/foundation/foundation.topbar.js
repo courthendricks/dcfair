@@ -10,7 +10,7 @@
       index : 0,
       sticky_class : 'sticky',
       custom_back_text: true,
-      back_text: 'Back',
+      back_text: 'BACK',
       mobile_show_parent_link: true,
       is_hover: true,
       scrolltop : true, // jump to top when sticky nav menu toggle is clicked
@@ -353,16 +353,16 @@
         if (!$dropdown.find('.title.back').length) {
 
           if (settings.mobile_show_parent_link == true && url) {
-            $titleLi = $('<li class="title back js-generated"><h5><a href="javascript:void(0)"></a></h5></li><li class="parent-link show-for-small"><a class="parent-link js-generated" href="' + url + '">' + $link.html() +'</a></li>');
+            $titleLi = $('<li class="title back js-generated"><h4><a href="javascript:void(0)"></a></h4></li><li class="parent-link show-for-small"><a class="parent-link js-generated" href="' + url + '">' + $link.html() +'</a></li>');
           } else {
-            $titleLi = $('<li class="title back js-generated"><h5><a href="javascript:void(0)"></a></h5>');
+            $titleLi = $('<li class="title back js-generated"><h4><a href="javascript:void(0)"></a></h4>');
           }
           
           // Copy link to subnav
           if (settings.custom_back_text == true) {
-            $('h5>a', $titleLi).html(settings.back_text);
+            $('h4>a', $titleLi).html(settings.back_text);
           } else {
-            $('h5>a', $titleLi).html('&laquo; ' + $link.html());
+            $('h4>a', $titleLi).html('&laquo; ' + $link.html());
           }
           $dropdown.prepend($titleLi);
         }
