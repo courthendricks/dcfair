@@ -1,0 +1,113 @@
+//fair sass file
+
+@import url('http://fonts.googleapis.com/css?family=Patua+One');
+@import url('http://fonts.googleapis.com/css?family=Sancreek');
+
+
+$torquoise: #136860;
+$darktorquoise: #104a43;
+$orange: #eb4c29;
+$fair-slab: 'Patua One', serif;
+$fair: 'Sancreek', serif;
+
+h1 {
+	font: 400 2em $fair;
+	color: $orange;
+}
+
+h4 {
+	font: 400 1.12em $fair-slab;
+	letter-spacing: 1px;
+}
+
+
+.contain-to-grid {
+	background: $torquoise;
+
+}
+
+.top-section {
+	height: 200px;
+	background: 
+	  linear-gradient(
+      rgba( 255,255,255,0.2), 
+      rgba(255,255,255,0.2)
+    ),
+    url(../img/bg.jpg);
+	background-size:cover;
+	.logo img {
+		max-width: 300px;
+	}
+}
+
+.top-bar-section ul li > a {
+	font: 400 1.12em $fair-slab;
+	letter-spacing: 1px;
+	color:white;
+	text-transform: uppercase;
+}
+
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background: $torquoise;
+}
+.no-js .top-bar-section ul li:hover > a {
+	background: $torquoise;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+	background: $torquoise;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: $darktorquoise;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+	background: $darktorquoise;
+}
+
+.navigation {
+
+}
+
+
+.slider {
+	margin: 0 auto;
+	max-width: 1200px;
+	img {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+
+#footer {
+	padding: 2em 0;
+	h4 {
+		font: 400 1.12em $fair-slab;
+		letter-spacing: 1px;
+		color:white;
+	}
+	p {
+		line-height: 2;
+		}
+		 a {
+			  color: white;
+			  border-bottom: solid 1px $darktorquoise;
+			  -webkit-transition: -webkit-color 300ms ease-out;
+			  -moz-transition: -moz-color 300ms ease-out;
+			  -ms-transition: -ms-color 300ms ease-out;
+			  -o-transition: -o-color 300ms ease-out;
+			  transition: color 300ms ease-out;
+			  &:hover {
+				  color: $darktorquoise;
+			  }
+
+
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+	}
+
+
+}

@@ -1,0 +1,71 @@
+@import url("http://fonts.googleapis.com/css?family=Patua+One");
+@import url("http://fonts.googleapis.com/css?family=Sancreek");
+h1 {
+  font: 400 2em "Sancreek", serif;
+  color: #eb4c29; }
+
+h4 {
+  font: 400 1.12em "Patua One", serif;
+  letter-spacing: 1px; }
+
+.contain-to-grid {
+  background: #136860; }
+
+.top-section {
+  height: 200px;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/bg.jpg);
+  background-size: cover; }
+  .top-section .logo img {
+    max-width: 300px; }
+
+.top-bar-section ul li > a {
+  font: 400 1.12em "Patua One", serif;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase; }
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #136860; }
+
+.no-js .top-bar-section ul li:hover > a {
+  background: #136860; }
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  background: #136860; }
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: #104a43; }
+
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+  background: #104a43; }
+
+.slider {
+  margin: 0 auto;
+  max-width: 1200px; }
+  .slider img {
+    width: 100%;
+    margin: 0 auto; }
+
+#footer {
+  padding: 2em 0; }
+  #footer h4 {
+    font: 400 1.12em "Patua One", serif;
+    letter-spacing: 1px;
+    color: white; }
+  #footer p {
+    line-height: 2; }
+  #footer a {
+    color: white;
+    border-bottom: solid 1px #104a43;
+    -webkit-transition: -webkit-color 300ms ease-out;
+    -moz-transition: -moz-color 300ms ease-out;
+    -ms-transition: -ms-color 300ms ease-out;
+    -o-transition: -o-color 300ms ease-out;
+    transition: color 300ms ease-out; }
+    #footer a:hover {
+      color: #104a43; }
+  #footer ul {
+    list-style-type: none;
+    margin: 0; }
+
+/*# sourceMappingURL=fair.css.map */

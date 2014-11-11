@@ -4,27 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Douglas County Fair</title>
+
 	<link rel="stylesheet" href="../css/foundation.css" >
 	<link rel="stylesheet" href="../css/normalize.css" >
 	<link rel="stylesheet" href="../css/style.css" >
 
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	
-	<!-- Gateway Page -->
-	<script src="../js/jquery.cookie.js"></script>
-	<script> 
-		$(function() {
-			var COOKIE_NAME = 'fairgrounds-gateway';
-			$go = $.cookie(COOKIE_NAME);
-			if ($go == null) {
-				$.cookie(COOKIE_NAME, 'test', { path: '/', expires: 1 });
-				window.location = "gateway.html"
-			}
-			else {
-			}
-		});
-	</script>
+	<link rel="stylesheet" href="css/fair.css" >	
 
   </head>
   <body>
@@ -33,8 +18,11 @@
 		  <div class="top-section">
 			<nav class="top-bar" data-topbar>
 		    	<div class="header">
+	    			<h1 class="logo">
+				        <a href="index.html"><img src="img/fair-logo.png"></a>
+				     </h1>
 				     <div class="right">
-				     	<a href="fair/index.html"><div class=" sign-top"></div></a>
+				     	<a href="../index.html"><div class=" sign-top"></div></a>
 					 	<a href="sponsors.html"><div class=" sign-bottom"></div></a>
 				     </div>
 		    	</div>
@@ -46,15 +34,15 @@
 	<!-- NAVIGATION -->
 	<div class="contain-to-grid">
 	 <nav class="top-bar" data-topbar>
-	    <ul class="title-area">
-
-	    	<li class="toggle-topbar menu-icon">
-		    	<a href="#"><span></span></a>
-	    	</li>
-	    </ul>
+		 <ul class="title-area">
+		    <li class="name">
+		      <h1> </h1>
+		    </li>
+		    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+		  </ul>
 	    
 	    <section class="top-bar-section">
-	      <ul class="right">
+	      <ul class="right navigation">
 	      	<li>
 		      	<a href="index.html">Home</a>
 	      	</li>
@@ -88,72 +76,43 @@
 	</div> <!-- END contain-to-grid -->
 	<!-- END NAVIGATION -->
     
-    
-<!---------- Slider SECTION ---------->
-   <div class="jumbotron">
-   
+<!---------- SLIDER SECTION ---------->
+   <div class="slider">
+   		<img src="img/slider1.jpg">
    </div>
-<!---------- END Slider SECTION ---------->    
-    
-    
-    
-        <div class="contain-to-grid">
-            <div class="hero ">
-	            <h1>Welcome to the Douglas County Fairgrounds</h1>
-	            
-				<p style="max-width:800px;">Welcome to the Douglas County Fairgrounds Complex, home of the Douglas County Fair and much more! Nestled along the Umpqua River in Roseburg, Oregon, we are uniquely located off I-5 Exit 123, minutes away from Downtown and lodging! With our own RV Park and over 80,000 sq. ft. of rentable buildings, our complex can host any event imaginable.</p>
-				<p style="max-width:800px;">Along with our experienced and knowledgeable staff we are here to help. From the most intimate of parties to the largest of banquets, tradeshows and flat shows, we want to help you create the perfect event of any size!</p>
 
-       
-		        <div class="row ">
-				          <div class="large-6 medium-6 columns ">
-					          	<div class="panel">
-						              <h2>Planning an Event?</h2>
-						              <p>We are a full service complex offering assistance in event planning, catering services and equipment needs for your event. Whether it is a large expo or a small meeting, we have what you need to make your next event a success!</p> <br>
-									  <a href="buildings.html" class="small button">Facilities Services</a>      
-					          	</div>
-				          </div>
-				          
-				          <div class="large-6 medium-6 columns ">
-					          	<div class="panel">
-									<h2>Looking for an Event?</h2>
-					              <p>The Douglas County Fairgrounds plays host to many of the county's annual events, including concerts, races, and shows. <br>Take a look at our calendar for everything that is happening this year. </p> <br>
-								  <a href="calendar.html" class="small button">Event Calendar</a> 
-					          	</div>
-				          </div>
-		        </div> <!-- End Row -->
-		        
-			</div>
-        </div>            
+             
 
-<div class="row">
-      <div class="large-12 medium-12 columns">
-        <!-- Grid Example -->
-        
-                
+   <div class="row main-copy">
+      <div class="large-8 medium-8 columns">
+        	<h1>Welcome to the Douglas County Fair</h1>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure.</p>
       </div>  
-      <div class="row cal">
-    	<div class="large-12 medium-12 columns">    
-		<div class="panel">
-
-		        	<h1>Upcoming Events at the Fairgrounds</h1>
-
-			<div class="row">
-				<div class="large-12 medium-12 columns">
-					<ul id="calendarEvents">	</ul>
-				</div>
-
-				
-			</div> <!-- END ROW -->	    
-			<div class="my-button">
-				<a style="margin: 10px auto;" href="#" class="small button">View Calendar</a>      
-			</div>
-        </div>
-      </div>
-    </div>       
-
       
-      
+	  <div class="large-4 medium-4 columns sidebar"
+	  	<div class="panel">
+	  		<h2>Fair Hours</h2>
+	  		<h4>August 5‐8</h4>
+	  		<p><strong>Thursday:</strong> 7 a.m. - 11 p.m.</p>
+	  		<p><strong>Friday:</strong> 7 a.m. - 11 p.m.</p>
+	  		<p><strong>Saturday:</strong> 7 a.m. - 11 p.m.</p>
+	  		<p><strong>Sunday:</strong> 7 a.m. - 11 p.m.</p>
+	  	</div>
+	  </div>
+   </div> <!-- END MAIN ROW -->
+   
+   <div class="row">
+	   <div class="large-4 medium-6 columns">
+		   <a href="#"><img src="img/BuyTickets.png" alt="Buy Tickets"></a>
+	   </div>
+	   <div class="large-4 medium-6 columns">
+		  <a href="#"><img src="img/Map.png" alt="Map"></a>
+	   </div>
+	   <div class="large-4 medium-6 columns">
+		   <a href="#"><img src="img/ScheduleofEvents.png" alt="Schedule of Events"></a>   
+	   </div>
+
+
    </div> <!-- END MAIN ROW -->
       
       
@@ -180,7 +139,7 @@
 	 	<div class="row">
 	 	
 	       <div class="large-3 medium-3 columns">
-	        	<p><h4>Contact Us</h4>541 957 7010 <br> 541 440 6023 (fax) <br> fairgrounds@co.douglas.or.us</p>
+	        	<p><h4>Contact Us</h4>541 957 7010 <br> 541 440 6023 (fax) <br> <a href="mailto:fairgrounds@co.douglas.or.us">fairgrounds@co.douglas.or.us</a></p>
 
 
 	    	</div>
@@ -189,16 +148,16 @@
 	        </div>
 			<div class="large-3 medium-3 columns">
 	        	<p><h4>Community Links</h4>
-	        		<a href="#">Douglas County Fair</a><br>
-	        		<a href="http://dcspeedway.org/" target="_blank">Douglas County Speedway</a><br>
-	        		<a href="https://www.facebook.com/dcmuseum"target="_blank">Douglas County Museum</a>
+	        		<a href="http://www.visitroseburg.com/" target="_blank">Visitor's Center</a><br>
+	        		<a href="http://www.co.douglas.or.us/">Douglas County Government</a><br>	        		
+	        		<a href="http://www.oregonfairs.org/"target="_blank">Oregon Fairs Association</a>
 	        	</p>
 	        </div> 
 	        <div class="large-3 medium-3 columns">
 	        	<p><h4>Connect With Us</h4>
-		        	<a href="https://www.facebook.com/douglascountyfair"target="_blank">Facebook</a>
-		        	<br><a href="https://www.youtube.com/user/DouglasFairgrounds/feed"target="_blank">YouTube</a>
-		        	<br><a href="http://www.pinterest.com/dcfair1"target="_blank">Pinterest</a>
+		        	<a href="https://www.facebook.com/douglascountyfair"target="_blank"><i class="fa fa-facebook-square"></i>Facebook</a><br>
+		        	<a href="https://www.youtube.com/user/DouglasFairgrounds/feed"target="_blank"><i class="fa fa-youtube-play"></i>YouTube</a><br>
+		        	<a href="http://www.pinterest.com/dcfair1"target="_blank"><i class="fa fa-pinterest"></i>Pinterest</a>
 	        	</p>
 	        </div>        
 		</div>
@@ -214,6 +173,7 @@
 	  	</div>
   </div>
   
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
     <script src="../js/foundation.min.js"></script>
 
