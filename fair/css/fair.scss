@@ -3,15 +3,27 @@
 @import url('http://fonts.googleapis.com/css?family=Patua+One');
 @import url('http://fonts.googleapis.com/css?family=Sancreek');
 
-
+///////// VARIABLES /////////
+$lighttorquoise: #22988c;
 $torquoise: #136860;
 $darktorquoise: #104a43;
-$orange: #eb4c29;
+$orange: #ef4f1f;
+$darkorange: #cc5029;
 $fair-slab: 'Patua One', serif;
 $fair: 'Sancreek', serif;
 
+///////// 
+
+
+
 h1 {
-	font: 400 2em $fair;
+	font: 400 2.1875em $fair;
+	color: $orange;
+}
+
+h2 {
+	font: 400 1.875em $fair-slab;
+	text-transform: uppercase;
 	color: $orange;
 }
 
@@ -20,6 +32,57 @@ h4 {
 	letter-spacing: 1px;
 }
 
+.button.alert {
+	background-color: $orange;
+	&:hover {
+		background-color: $darkorange;
+	}
+}
+
+.main-copy {
+	h1 {
+		color: $orange;
+	}
+	a {
+		color: $lighttorquoise;
+		
+		&:hover {
+		 color: $darktorquoise;
+		}
+	}	
+}
+
+
+.sidebar .panel {
+	h4 {
+	font: 400 1.12em $fair-slab;
+	letter-spacing: 1px;
+	color: $orange;
+}
+	a {
+		color: $lighttorquoise;
+		
+		&:hover {
+		 color: $darktorquoise;
+		}
+	}	
+}
+
+
+.panel {
+	background-color: $torquoise;
+	h2 {
+
+		color: $orange;
+		letter-spacing: 2px;
+	}
+	h4 {
+		color: white;
+	}
+	p {
+		color: white;
+	}
+}
 
 .contain-to-grid {
 	background: $torquoise;
@@ -41,7 +104,7 @@ h4 {
 }
 
 .top-bar-section ul li > a {
-	font: 400 1.12em $fair-slab;
+	font: 400 1em $fair-slab;
 	letter-spacing: 1px;
 	color:white;
 	text-transform: uppercase;
@@ -64,13 +127,10 @@ h4 {
 	background: $darktorquoise;
 }
 
-.navigation {
-
-}
 
 
 .slider {
-	margin: 0 auto;
+	margin: 2em auto;
 	max-width: 1200px;
 	img {
 		width: 100%;
@@ -78,7 +138,34 @@ h4 {
 	}
 }
 
+.button-section {
+	img {
+		margin: 1em 0;
+		-webkit-transition: -webkit-opacity 300ms ease-out;
+		-moz-transition: -moz-opacity 300ms ease-out;
+		-ms-transition: -ms-opacity 300ms ease-out;
+		-o-transition: -o-opacity 300ms ease-out;
+		transition: opacity 300ms ease-out;
+		&:hover {
+			 opacity: 0.8;
+			 filter: alpha(opacity=40); /* For IE8 and earlier */
+		}
+	}
+}
+.sponsors {
+	li {
+		-webkit-transition: -webkit-opacity 300ms ease-out;
+		-moz-transition: -moz-opacity 300ms ease-out;
+		-ms-transition: -ms-opacity 300ms ease-out;
+		-o-transition: -o-opacity 300ms ease-out;
+		transition: opacity 300ms ease-out;
+		&:hover {
+			 opacity: 0.8;
+			 filter: alpha(opacity=40); /* For IE8 and earlier */
+		}
+	}
 
+}
 
 #footer {
 	padding: 2em 0;

@@ -1,12 +1,48 @@
 @import url("http://fonts.googleapis.com/css?family=Patua+One");
 @import url("http://fonts.googleapis.com/css?family=Sancreek");
 h1 {
-  font: 400 2em "Sancreek", serif;
-  color: #eb4c29; }
+  font: 400 2.1875em "Sancreek", serif;
+  color: #ef4f1f; }
+
+h2 {
+  font: 400 1.875em "Patua One", serif;
+  text-transform: uppercase;
+  color: #ef4f1f; }
 
 h4 {
   font: 400 1.12em "Patua One", serif;
   letter-spacing: 1px; }
+
+.button.alert {
+  background-color: #ef4f1f; }
+  .button.alert:hover {
+    background-color: #cc5029; }
+
+.main-copy h1 {
+  color: #ef4f1f; }
+.main-copy a {
+  color: #22988c; }
+  .main-copy a:hover {
+    color: #104a43; }
+
+.sidebar .panel h4 {
+  font: 400 1.12em "Patua One", serif;
+  letter-spacing: 1px;
+  color: #ef4f1f; }
+.sidebar .panel a {
+  color: #22988c; }
+  .sidebar .panel a:hover {
+    color: #104a43; }
+
+.panel {
+  background-color: #136860; }
+  .panel h2 {
+    color: #ef4f1f;
+    letter-spacing: 2px; }
+  .panel h4 {
+    color: white; }
+  .panel p {
+    color: white; }
 
 .contain-to-grid {
   background: #136860; }
@@ -19,7 +55,7 @@ h4 {
     max-width: 300px; }
 
 .top-bar-section ul li > a {
-  font: 400 1.12em "Patua One", serif;
+  font: 400 1em "Patua One", serif;
   letter-spacing: 1px;
   color: white;
   text-transform: uppercase; }
@@ -40,11 +76,34 @@ h4 {
   background: #104a43; }
 
 .slider {
-  margin: 0 auto;
+  margin: 2em auto;
   max-width: 1200px; }
   .slider img {
     width: 100%;
     margin: 0 auto; }
+
+.button-section img {
+  margin: 1em 0;
+  -webkit-transition: -webkit-opacity 300ms ease-out;
+  -moz-transition: -moz-opacity 300ms ease-out;
+  -ms-transition: -ms-opacity 300ms ease-out;
+  -o-transition: -o-opacity 300ms ease-out;
+  transition: opacity 300ms ease-out; }
+  .button-section img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+    /* For IE8 and earlier */ }
+
+.sponsors li {
+  -webkit-transition: -webkit-opacity 300ms ease-out;
+  -moz-transition: -moz-opacity 300ms ease-out;
+  -ms-transition: -ms-opacity 300ms ease-out;
+  -o-transition: -o-opacity 300ms ease-out;
+  transition: opacity 300ms ease-out; }
+  .sponsors li:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+    /* For IE8 and earlier */ }
 
 #footer {
   padding: 2em 0; }
