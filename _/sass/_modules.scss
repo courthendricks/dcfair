@@ -314,9 +314,7 @@ a.expand {
 
 #footer {
 	padding: 2em 0;
-	p {
-		line-height: 2;
-		}
+
 		 a {
 			  color: white;
 			  border-bottom: solid 1px $darkgreen;
@@ -418,7 +416,7 @@ a.expand {
 
 
 
-/////////////////////// EVENT PAGES ///////////////////////
+/////////////////////// INTERNAL PAGES ///////////////////////
 
 .main-copy {
 	color: $grey;
@@ -442,7 +440,20 @@ a.expand {
 	img {
 		margin: 1em 0;
 	}
-	
+	p {
+		a {
+				color: $darkgreen;
+			  -webkit-transition: -webkit-color 300ms ease-out;
+			  -moz-transition: -moz-color 300ms ease-out;
+			  -ms-transition: -ms-color 300ms ease-out;
+			  -o-transition: -o-color 300ms ease-out;
+			  transition: color 300ms ease-out;
+			&:hover {
+				color: $green;
+			}
+		}
+
+	}
 
 }
 

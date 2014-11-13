@@ -3476,8 +3476,13 @@ ul.pagination {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-      font-size: 1rem; }
+      font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-size: 1.25rem;
+      	  -webkit-transition: -webkit-background 300ms ease-out;
+		  -moz-transition: -moz-background 300ms ease-out;
+		  -ms-transition: -ms-background 300ms ease-out;
+		  -o-transition: -o-background 300ms ease-out;
+		  transition: background 300ms ease-out; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
