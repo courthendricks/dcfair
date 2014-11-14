@@ -44,6 +44,11 @@ h4 {
   .panel p {
     color: white; }
 
+table {
+  margin: 1em 0; }
+  table p {
+    margin-bottom: 0; }
+
 .contain-to-grid {
   background: #136860; }
 
