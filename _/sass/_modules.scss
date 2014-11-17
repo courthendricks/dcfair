@@ -46,10 +46,16 @@
 
 .logo {
 	img {
-	max-width: 250px; 
-	margin-top: 1em;
+		max-width: 250px; 
+		margin-top: 1em;
+	@include breakpoint(baby-bear){
+		margin-top: 1rem;
+	}
 	}
 	display: inline;
+	@include breakpoint(baby-bear){
+		display: block;
+	}
 }
 
 .sign-top {
@@ -65,6 +71,9 @@
 	&:hover {
 		background: url(../img/sign-dcfair.png);
 	}
+	@include breakpoint(baby-bear){
+		display: none;
+	}
 }
 .sign-bottom {
 	background: url(../img/signbottom.png);
@@ -79,7 +88,11 @@
 	&:hover {
 		background: url(../img/sign-sponsors.png);
 	}
+	@include breakpoint(baby-bear){
+		display: none;
+	}
 }
+
 .top-bar {
 	background: rgba(0, 0, 0, 0);
 
@@ -370,6 +383,7 @@ a.expand {
 	display: block;
 	background: url(../img/gateway-bg.jpg) no-repeat;
 	background-size:cover;
+	background-color: $green;
 }
 
 #gateway {

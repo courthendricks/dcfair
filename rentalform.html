@@ -7,27 +7,27 @@
 	<link rel="stylesheet" href="_/sass/foundation.css" >
 	<link rel="stylesheet" href="css/style.css" >
 
+    <script src="js/vendor/modernizr.js"></script>
+
+
   </head>
   
   
   <body>
 	 
-	 <div class="contain-to-grid clearfix">
-		  <div class="top-section">
-			<nav class="top-bar" data-topbar>
-		    	<div class="header">
-					 <h1 class="logo">
-				        <a href="index.html"><img src="img/logo.png"></a>
-				     </h1>
-				     <div class="right">
-				     	<a href="fair/index.html"><div class=" sign-top"></div></a>
-					 	<a href="sponsors.html"><div class=" sign-bottom"></div></a>
-				     </div>
-		    	</div>
-
-			</nav>
-		</div>
-	 </div>
+	<!-- HEADER SECTION -->
+	  <div class="top-section">
+	    	<div class="header">
+				 <h1 class="logo">
+			        <a href="index.html"><img src="img/logo.png"></a>
+			     </h1>
+			     <div class="right">
+			     	<a href="fair/index.html"><div class=" sign-top"></div></a>
+				 	<a href="sponsors.html"><div class=" sign-bottom"></div></a>
+			     </div>
+	    	</div> <!-- END HEADER -->
+	</div>
+	<!-- END HEADER SECTION -->
 
 	<!-- NAVIGATION -->
 	<div class="contain-to-grid">
@@ -84,58 +84,59 @@
 	 </nav>
 	</div> <!-- END contain-to-grid -->
 	<!-- END NAVIGATION -->
-	
+
 
 <!---------- MAIN SECTION ---------->    
            
 
-		<div class="row">
-		
-			  <div class="large-12 medium-12 columns main-copy"> 
-				  <div class="single-column">
-			  		<h1>Rental Request Form</h1>
-			  		
-			        	<form data-abide method="post" action="contactengine.php">
-							  <div class="row">
-							    <div class="large-12 columns">
-							    	<div class="name-field " >
-									    <label>Your Name <small>required</small>
-									      <input type="text" name="Name" id="Name" placeholder="John Doe" required pattern="[a-zA-Z]+">
+	<div class="row">
+	
+		  <div class="large-12 medium-12 columns main-copy"> 
+			  <div class="single-column">
+		  		<h1>Rental Request Form</h1>
+
+		        	<form data-abide method="post" action="rentalform.php">
+						  <div class="row">
+						    <div class="large-12 columns">
+						    	<div class="name-field " >
+								    <label>Your Name <small>required</small>
+								      <input type="text" name="Name" id="Name" placeholder="John Doe" required pattern="[a-zA-Z]+">
+								    </label>
+								    <small class="error">A name is required.</small>
+						    	</div>
+						    </div>
+						  </div>
+						  
+						  <div class="row">
+							    <div class="large-6 medium-6 columns">
+							    	<div class="phone-field " >
+									    <label>Phone Number <small>required</small>
+									      <input type="tel" name="Phone" id="Phone" placeholder="888 888 8888" required pattern="integer">
 									    </label>
-									    <small class="error">A name is required.</small>
+									    <small class="error">A phone number is required.</small>
 							    	</div>
 							    </div>
-							  </div>
-							  
-							  <div class="row">
-								    <div class="large-6 medium-6 columns">
-								    	<div class="phone-field " >
-										    <label>Phone Number <small>required</small>
-										      <input type="tel" name="Phone" id="Phone" placeholder="(888) 888-8888" required>
-										    </label>
-										    <small class="error">A phone number is required.</small>
-								    	</div>
-								    </div>
-								    
-								    <div class="large-6 medium-6 columns">
-								    	<div >
-										    <label>Email
-										      <input type="email" name="Email" id="Email" placeholder="john@doe.com">
-										    </label>
-								    	</div>
-								    </div>
-							  </div> <!-- END ROW -->
-							  <div>
-								  <label>Message</label>
-								  <textarea  name="Address" id="Address" placeholder="Hello! I'd like to reserve a room..." rows="4"></textarea>
-							  </div><br>
-							  <button type="submit" name="submit" value="Submit" href="#" class="small button">Submit</button>
-						</form>
-						
-				  </div>
-			</div>
-			
-		</div> <!-- END MAIN ROW -->
+							    
+							    <div class="large-6 medium-6 columns">
+							    	<div class="email-field " >
+									    <label>Email <small>required</small>
+									      <input type="email" name="Email" id="Email" placeholder="john@doe.com" requried pattern="email">
+									    </label>
+									    <small class="error">An email is required.</small>
+							    	</div>
+							    </div>
+						  </div> <!-- END ROW -->
+						  <div>
+							  <label>Message</label>
+							  <textarea  name="Message" id="Message" placeholder="Your message here." rows="4"></textarea>
+						  </div><br>
+						  <button type="submit" name="submit" value="Submit" href="#" class="small button">Submit</button>
+					</form>
+
+			  </div>
+		</div>
+		
+	</div> <!-- END MAIN ROW -->
 
       
    <div class="sponsors">
@@ -193,16 +194,15 @@
 	  	</div>
   </div>
   
-
-
-
 	    <script src="js/vendor/jquery.js"></script>
 	    <script src="js/jquery-1.9.1.min.js"></script> 
 	    <script src="js/foundation.min.js"></script>
-	    <script src="js/owl.carousel.js"></script>
 	    <script>
 	      $(document).foundation();
 	    </script>
+
+
+
 	    <script src="http://localhost:35729/livereload.js"></script> 
       </body>
 </html>

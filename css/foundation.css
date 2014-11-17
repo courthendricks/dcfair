@@ -2313,9 +2313,11 @@ meta.foundation-mq-topbar {
   .alert-box.round {
     border-radius: 1000px; }
   .alert-box.success {
-    background-color: #43ac6a;
-    border-color: #3a945b;
-    color: white; }
+    background-color: #abc069;
+    border: none;
+    color: white;
+    font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1rem;}
   .alert-box.alert {
     background-color: #f04124;
     border-color: #de2d0f;
