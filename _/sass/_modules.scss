@@ -38,8 +38,10 @@
 }
 
 .header {
-	padding: 1px;
+    max-width: 62.5rem;
+	padding: 0 10px;
 	max-height: 210px;
+	margin: 0 auto;
 }
 
 .logo {
@@ -219,7 +221,7 @@ a.expand {
 		color: white;
 	}
 	p {
-		max-width: 1000px;
+		max-width: 800px;
 		margin: 0 auto 10px auto;
 		line-height: 1.25;
 
@@ -304,7 +306,7 @@ a.expand {
 		}
 	}
 	img {
-		max-width: 200px;
+		max-width: 150px;
 	}
 	a {
 		color:white;
@@ -442,14 +444,18 @@ a.expand {
 	}
 	p {
 		a {
-				color: $darkgreen;
-			  -webkit-transition: -webkit-color 300ms ease-out;
-			  -moz-transition: -moz-color 300ms ease-out;
-			  -ms-transition: -ms-color 300ms ease-out;
-			  -o-transition: -o-color 300ms ease-out;
-			  transition: color 300ms ease-out;
+
+			color: $darkgreen;
+			-webkit-transition: -webkit-color 300ms ease-out;
+			-moz-transition: -moz-color 300ms ease-out;
+			-ms-transition: -ms-color 300ms ease-out;
+			-o-transition: -o-color 300ms ease-out;
+			transition: color 300ms ease-out;
 			&:hover {
 				color: $green;
+			}
+			.button {
+				color: white;
 			}
 		}
 
@@ -472,6 +478,19 @@ a.expand {
 	}
 	.panel {
 		background-color: white;
+	}
+	a {
+		img {
+			-webkit-transition: -webkit-opacity 300ms ease-out;
+			-moz-transition: -moz-opacity 300ms ease-out;
+			-ms-transition: -ms-opacity 300ms ease-out;
+			-o-transition: -o-opacity 300ms ease-out;
+			transition: opacity 300ms ease-out;
+			&:hover {
+				 opacity: 0.8;
+				 filter: alpha(opacity=40); /* For IE8 and earlier */
+			}
+		}
 	}
 }
 
@@ -525,9 +544,7 @@ iframe {
   .effects {
     padding-left: 5px;
   }
-  .effects .img {
-    width: 50%;
-  }
+
   .effects .img:nth-child(n) {
     margin-right: 5px;
   }

@@ -99,16 +99,18 @@ table {
     filter: alpha(opacity=40);
     /* For IE8 and earlier */ }
 
-.sponsors li {
-  -webkit-transition: -webkit-opacity 300ms ease-out;
-  -moz-transition: -moz-opacity 300ms ease-out;
-  -ms-transition: -ms-opacity 300ms ease-out;
-  -o-transition: -o-opacity 300ms ease-out;
-  transition: opacity 300ms ease-out; }
-  .sponsors li:hover {
-    opacity: 0.8;
-    filter: alpha(opacity=40);
-    /* For IE8 and earlier */ }
+.sponsors {
+  margin-top: 2em; }
+  .sponsors li {
+    -webkit-transition: -webkit-opacity 300ms ease-out;
+    -moz-transition: -moz-opacity 300ms ease-out;
+    -ms-transition: -ms-opacity 300ms ease-out;
+    -o-transition: -o-opacity 300ms ease-out;
+    transition: opacity 300ms ease-out; }
+    .sponsors li:hover {
+      opacity: 0.8;
+      filter: alpha(opacity=40);
+      /* For IE8 and earlier */ }
 
 #footer {
   padding: 2em 0; }
