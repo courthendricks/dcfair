@@ -11,39 +11,38 @@
 
 	<link rel="stylesheet" href="css/fair.css" >	
 
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
   </head>
   <body>
 	 
-	 <div class="contain-to-grid clearfix">
-		  <div class="top-section">
-			<nav class="top-bar" data-topbar>
-		    	<div class="header">
-	    			<h1 class="logo">
-				        <a href="index.html"><img src="img/fair-logo.png"></a>
-				     </h1>
-				     <div class="right">
-				     	<a href="../index.html"><div class=" sign-top"></div></a>
-					 	<a href="../sponsors.html"><div class=" sign-bottom"></div></a>
-				     </div>
-		    	</div>
+	<!-- HEADER SECTION -->
+	  <div class="top-section">
+	    	<div class="header">
+				 <h1 class="logo">
+			        <a href="index.html"><img src="img/fair-logo.png"></a>
+			     </h1>
+			     <div class="right">
+			     	<a href="../index.html"><div class=" sign-top"></div></a>
+				 	<a href="../sponsors.html"><div class=" sign-bottom"></div></a>
+			     </div>
+	    	</div> <!-- END HEADER -->
+	</div>
+	<!-- END HEADER SECTION -->
 
-			</nav>
-		</div>
-	 </div>
-
+	
 	<!-- NAVIGATION -->
 	<div class="contain-to-grid">
 	 <nav class="top-bar" data-topbar>
 		 <ul class="title-area">
-		    <li class="name">
-		      <h1> </h1>
-		      <a href="#" class="alert button ">Buy Tickets</a>
-		    </li>
+		    <li class="name"><h1></h1></li>		    
 		    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
 		  </ul>
 	    
 	    <section class="top-bar-section">
 	      <ul class="right navigation">
+	        <li><a href="#" class="alert button">Buy Tickets</a></li>
+
 	      	<li>
 		      	<a href="index.html">Home</a>
 	      	</li>
@@ -78,10 +77,21 @@
 	<!-- END NAVIGATION -->
     
 <!---------- SLIDER SECTION ---------->
-   <div class="slider">
-   		<img src="img/slider1.jpg">
-   </div>
 
+<!-- Content Slider -->
+	<div class="slider">
+        <div id="owl-demo" class="owl-carousel">
+
+				<div class="item ">
+					<img src="img/slider1.jpg">
+				</div>
+
+                <div class="item "><img src="http://placehold.it/1200x400"></div>
+                <div class="item "><img src="http://placehold.it/1200x400"></div>
+
+        </div> 
+	</div>
+<!-- END Content Slider -->
              
 
    <div class="row ">
@@ -187,7 +197,38 @@
   
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="../js/foundation.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
 
+        <!-- Demo -->
+
+    <style>
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        max-height: 500px;
+    }
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+
+      navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
+      });
+    });
+    </script>
     <script src="http://localhost:35729/livereload.js"></script> 
  </body>
 </html>

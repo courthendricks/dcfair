@@ -48,9 +48,9 @@
 	img {
 		max-width: 250px; 
 		margin-top: 1em;
-	@include breakpoint(baby-bear){
-		margin-top: 1rem;
-	}
+		@include breakpoint(baby-bear){
+			margin-top: 1rem;
+		}
 	}
 	display: inline;
 	@include breakpoint(baby-bear){
@@ -63,6 +63,7 @@
 	background-repeat: no-repeat;
 	width: 202px;
 	height: 94px;
+	margin-top: 0;
 	-webkit-transition: -webkit-background 300ms ease-out;
 	-moz-transition: -moz-background 300ms ease-out;
 	-ms-transition: -ms-background 300ms ease-out;
