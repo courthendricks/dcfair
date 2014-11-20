@@ -97,8 +97,16 @@ p {
 		color: white;
 	}
 }
+
+button.alert, .button.alert {
+	background-color: $orange;
+	margin-top: .5em;
+	&:hover {
+		background-color: $darkorange;
+	}
+}
 .button {
-	margin: 1em 0 0 0;
+	margin: 1em 0;
 }
 table {
 	margin: 1em 0;
@@ -401,7 +409,7 @@ table {
 	border-right-width: 0px;
 	border-top-color: white;
 	border-top-width: 0px;
-	margin: 0;
+	margin: 0 0 0 1em;
 	tr {
 		td {
 			vertical-align: top;

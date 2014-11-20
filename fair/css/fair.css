@@ -37,8 +37,14 @@ p a {
   .panel p {
     color: white; }
 
+button.alert, .button.alert {
+  background-color: #ef4f1f;
+  margin-top: .5em; }
+  button.alert:hover, .button.alert:hover {
+    background-color: #cc5029; }
+
 .button {
-  margin: 1em 0 0 0; }
+  margin: 1em 0; }
 
 table {
   margin: 1em 0; }
@@ -261,7 +267,7 @@ table {
   border-right-width: 0px;
   border-top-color: white;
   border-top-width: 0px;
-  margin: 0; }
+  margin: 0 0 0 1em; }
   table tr td {
     vertical-align: top; }
 
