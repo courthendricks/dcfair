@@ -44,6 +44,8 @@ table {
   margin: 1em 0; }
   table p {
     margin-bottom: 0; }
+  table td span {
+    color: #707376; }
 
 .contain-to-grid {
   background: #136860; }
