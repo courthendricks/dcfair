@@ -376,8 +376,9 @@ a.expand {
         font-size: 1em;
         color: #585c62;
         font-size: 16px; }
-/* line 295, ../_/sass/_modules.scss */
-.cal .my-button {
+
+/* line 298, ../_/sass/_modules.scss */
+.my-button {
   margin: 0 auto;
   text-align: center; }
 

@@ -13,6 +13,11 @@ h4 {
   font: 400 1.12em "Patua One", serif;
   letter-spacing: 1px; }
 
+p a {
+  color: #ef4f1f; }
+  p a:hover {
+    color: #cc5029; }
+
 .sidebar .panel h4 {
   font: 400 1.12em "Patua One", serif;
   letter-spacing: 1px;
@@ -31,6 +36,9 @@ h4 {
     color: white; }
   .panel p {
     color: white; }
+
+.button {
+  margin: 1em 0 0 0; }
 
 table {
   margin: 1em 0; }
@@ -223,6 +231,10 @@ table {
   color: #22988c; }
   .main-copy a:hover {
     color: #104a43; }
+.main-copy p a {
+  color: #ef4f1f; }
+  .main-copy p a:hover {
+    color: #cc5029; }
 .main-copy .stage-sponsor {
   margin-bottom: 0; }
 .main-copy .panel h2 {

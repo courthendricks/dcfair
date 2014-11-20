@@ -55,7 +55,15 @@ h4 {
 	letter-spacing: 1px;
 }
 
-
+p {
+	a {
+		color: $orange;
+		
+		&:hover {
+		 color: $darkorange;
+		}
+	}
+}
 
 
 
@@ -89,7 +97,9 @@ h4 {
 		color: white;
 	}
 }
-
+.button {
+	margin: 1em 0 0 0;
+}
 table {
 	margin: 1em 0;
 	
@@ -342,6 +352,15 @@ table {
 		 color: $darktorquoise;
 		}
 	}
+	p {
+		a {
+			color: $orange;
+			
+			&:hover {
+			 color: $darkorange;
+			}
+		}
+	}
 	.stage-sponsor {
 		margin-bottom: 0;
 	}
@@ -360,6 +379,7 @@ table {
 		}
 	}
 }
+
 
 .sectionhead {
 	text-align: center;
