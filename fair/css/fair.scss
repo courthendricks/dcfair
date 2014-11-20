@@ -55,12 +55,7 @@ h4 {
 	letter-spacing: 1px;
 }
 
-.button.alert {
-	background-color: $orange;
-	&:hover {
-		background-color: $darkorange;
-	}
-}
+
 
 
 
@@ -173,6 +168,13 @@ table {
 	background: $darktorquoise;
 }
 
+.top-bar-section ul li > a.button.alert {
+	background-color: $orange;
+	margin-top: 1px;
+	&:hover {
+		background-color: $darkorange;
+	}
+}
 
 
 .slider {
@@ -327,7 +329,7 @@ table {
 .main-copy {
 	h1 {
 		color: $orange;
-		text-align: center;
+		text-align: left;
 	}
 	h2 {
 		color: $grey;
@@ -384,6 +386,9 @@ table {
 
 .mytabs {
 	background: white;	
+	h1 {
+		text-align: center;
+	}
 	p {
 		margin-bottom: 0;
 	}
@@ -391,5 +396,14 @@ table {
 	}
 }
 
+.specials {
+	text-align: center;
+	.panel {
+		p {
+			color: white;
+			margin-bottom: .5em;
+		}		
+	}
 
+}
 

@@ -13,11 +13,6 @@ h4 {
   font: 400 1.12em "Patua One", serif;
   letter-spacing: 1px; }
 
-.button.alert {
-  background-color: #ef4f1f; }
-  .button.alert:hover {
-    background-color: #cc5029; }
-
 .sidebar .panel h4 {
   font: 400 1.12em "Patua One", serif;
   letter-spacing: 1px;
@@ -96,6 +91,12 @@ table {
 
 .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
   background: #104a43; }
+
+.top-bar-section ul li > a.button.alert {
+  background-color: #ef4f1f;
+  margin-top: 1px; }
+  .top-bar-section ul li > a.button.alert:hover {
+    background-color: #cc5029; }
 
 .slider {
   margin: 2rem auto;
@@ -214,7 +215,7 @@ table {
 
 .main-copy h1 {
   color: #ef4f1f;
-  text-align: center; }
+  text-align: left; }
 .main-copy h2 {
   color: #585c62;
   margin-bottom: .5em; }
@@ -252,7 +253,15 @@ table {
 
 .mytabs {
   background: white; }
+  .mytabs h1 {
+    text-align: center; }
   .mytabs p {
     margin-bottom: 0; }
+
+.specials {
+  text-align: center; }
+  .specials .panel p {
+    color: white;
+    margin-bottom: .5em; }
 
 /*# sourceMappingURL=fair.css.map */
