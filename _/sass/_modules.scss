@@ -514,31 +514,10 @@ a.expand {
 
 .my-calendar {
 	background-color: white;
-	padding: 2em 0;
+	padding: 2em .5em;
 }
 
-	#loading {
-		display: none;
-		position: absolute;
-		top: 10px;
-		left:50%;
-	}
-
-	#calendar {
-		max-width: 970px;
-		margin: 0 auto;
-		font-size: 14px;
-		table {
-			margin-bottom: 0;
-			background: rgba(0,0,0,0);
-		}
-		table thead {
-			background: none;
-		}
-		tbody {
-			background: none;
-		}
-	}
+	
 /////////////////////// Mission PAGE ///////////////////////
 .single-column {
 	max-width: 700px;

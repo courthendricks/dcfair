@@ -6,42 +6,11 @@
     <title>Douglas County Complex &amp; Speedway </title>
 	<link rel="stylesheet" href="_/sass/foundation.css" >
 	<link rel="stylesheet" href="css/style.css" >
-	<link href='css/fullcalendar.css' rel='stylesheet' />
 
-		<script src="js/moment.min.js"></script>
 	    <script src="js/jquery-1.9.1.min.js"></script> 
 	    <script src="js/foundation.min.js"></script>
-	    <script>
-	      $(document).foundation();
-	    </script>
-	    <script src="js/fullcalendar.min.js"></script>
-		<script src="js/gcal.js"></script>
-	    <script src="js/jquery.gcal-events.js"></script> 
 
-		<script>
-		
-			$(document).ready(function() {
-			
-				$('#calendar').fullCalendar({
-				
-					// US Holidays
-					events: 'https://www.google.com/calendar/feeds/douglascountyfair%40gmail.com/public/basic',
-					
-					eventClick: function(event) {
-						// opens events in a popup window
-						window.open(event.url, 'gcalevent', 'width=600,height=600');
-						return false;
-					},
-					
-					loading: function(bool) {
-						$('#loading').toggle(bool);
-					}
-					
-				});
-				
-			});
-		
-		</script>
+
 
   </head>
   <body>
@@ -126,8 +95,9 @@
 	 			  <h1>Upcoming Events at the Fairgrounds</h1>     
  			  </div>
  			       
- 			  <div id='loading'>loading...</div>
- 			  <div id='calendar'></div>
+
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=douglascountyfair%40gmail.com&amp;color=%235F6B02&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+
 	</div>
       
            
@@ -189,9 +159,13 @@
   </div>
   
 
-
-
-
+	    <script src="js/vendor/jquery.js"></script>
+	    <script src="js/jquery-1.9.1.min.js"></script> 
+	    <script src="js/foundation.min.js"></script>
+	    <script src="js/owl.carousel.js"></script>
+	    <script>
+	      $(document).foundation();
+	    </script>
 
 	    <script src="http://localhost:35729/livereload.js"></script> 
       </body>
