@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-	font: 400 1.875em $fair-slab;
+	font: 400 1.5em $fair-slab;
 	text-transform: uppercase;
 	color: $orange;
 }
@@ -62,24 +62,6 @@ h4 {
 	}
 }
 
-.main-copy {
-	h1 {
-		color: $orange;
-	}
-	h2 {
-		color: $grey;
-	}
-	a {
-		color: $lighttorquoise;
-		
-		&:hover {
-		 color: $darktorquoise;
-		}
-	}
-	.stage-sponsor {
-		margin-bottom: 0;
-	}
-}
 
 
 .sidebar .panel {
@@ -338,3 +320,76 @@ table {
 
 
 }
+
+
+//INTERNAL PAGES //
+
+.main-copy {
+	h1 {
+		color: $orange;
+		text-align: center;
+	}
+	h2 {
+		color: $grey;
+		margin-bottom: .5em;
+	}
+	a {
+		color: $lighttorquoise;
+		
+		&:hover {
+		 color: $darktorquoise;
+		}
+	}
+	.stage-sponsor {
+		margin-bottom: 0;
+	}
+	.panel {
+	
+		h2 {
+	
+			color: $orange;
+			letter-spacing: 2px;
+		}
+		h4 {
+			color: $grey;
+		}
+		p {
+			color: $grey;
+		}
+	}
+}
+
+.sectionhead {
+	text-align: center;
+}
+
+table {
+	background-color: white;
+	border-bottom-color: white;
+	border-bottom-width: 0px;
+	border-collapse: separate;
+	border-left-color: white;
+	border-left-width: 0px;
+	border-right-color: white;
+	border-right-width: 0px;
+	border-top-color: white;
+	border-top-width: 0px;
+	margin: 0;
+	tr {
+		td {
+			vertical-align: top;
+		}
+	}
+}
+
+.mytabs {
+	background: white;	
+	p {
+		margin-bottom: 0;
+	}
+	#panel1 {
+	}
+}
+
+
+

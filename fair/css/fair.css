@@ -5,7 +5,7 @@ h1 {
   color: #ef4f1f; }
 
 h2 {
-  font: 400 1.875em "Patua One", serif;
+  font: 400 1.5em "Patua One", serif;
   text-transform: uppercase;
   color: #ef4f1f; }
 
@@ -17,17 +17,6 @@ h4 {
   background-color: #ef4f1f; }
   .button.alert:hover {
     background-color: #cc5029; }
-
-.main-copy h1 {
-  color: #ef4f1f; }
-.main-copy h2 {
-  color: #585c62; }
-.main-copy a {
-  color: #22988c; }
-  .main-copy a:hover {
-    color: #104a43; }
-.main-copy .stage-sponsor {
-  margin-bottom: 0; }
 
 .sidebar .panel h4 {
   font: 400 1.12em "Patua One", serif;
@@ -222,5 +211,48 @@ table {
   #footer ul {
     list-style-type: none;
     margin: 0; }
+
+.main-copy h1 {
+  color: #ef4f1f;
+  text-align: center; }
+.main-copy h2 {
+  color: #585c62;
+  margin-bottom: .5em; }
+.main-copy a {
+  color: #22988c; }
+  .main-copy a:hover {
+    color: #104a43; }
+.main-copy .stage-sponsor {
+  margin-bottom: 0; }
+.main-copy .panel h2 {
+  color: #ef4f1f;
+  letter-spacing: 2px; }
+.main-copy .panel h4 {
+  color: #585c62; }
+.main-copy .panel p {
+  color: #585c62; }
+
+.sectionhead {
+  text-align: center; }
+
+table {
+  background-color: white;
+  border-bottom-color: white;
+  border-bottom-width: 0px;
+  border-collapse: separate;
+  border-left-color: white;
+  border-left-width: 0px;
+  border-right-color: white;
+  border-right-width: 0px;
+  border-top-color: white;
+  border-top-width: 0px;
+  margin: 0; }
+  table tr td {
+    vertical-align: top; }
+
+.mytabs {
+  background: white; }
+  .mytabs p {
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=fair.css.map */
