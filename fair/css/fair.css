@@ -5,7 +5,7 @@ h1 {
   color: #ef4f1f; }
 
 h2 {
-  font: 400 1.875em "Patua One", serif;
+  font: 400 1.5em "Patua One", serif;
   text-transform: uppercase;
   color: #ef4f1f; }
 
@@ -13,17 +13,10 @@ h4 {
   font: 400 1.12em "Patua One", serif;
   letter-spacing: 1px; }
 
-.button.alert {
-  background-color: #ef4f1f; }
-  .button.alert:hover {
-    background-color: #cc5029; }
-
-.main-copy h1 {
+p a {
   color: #ef4f1f; }
-.main-copy a {
-  color: #22988c; }
-  .main-copy a:hover {
-    color: #104a43; }
+  p a:hover {
+    color: #cc5029; }
 
 .sidebar .panel h4 {
   font: 400 1.12em "Patua One", serif;
@@ -44,10 +37,21 @@ h4 {
   .panel p {
     color: white; }
 
+button.alert, .button.alert {
+  background-color: #ef4f1f;
+  margin-top: .5em; }
+  button.alert:hover, .button.alert:hover {
+    background-color: #cc5029; }
+
+.button {
+  margin: 1em 0; }
+
 table {
   margin: 1em 0; }
   table p {
     margin-bottom: 0; }
+  table td span {
+    color: #707376; }
 
 .contain-to-grid {
   background: #136860; }
@@ -59,11 +63,35 @@ table {
   .top-section .logo img {
     max-width: 300px; }
 
+.sign-top {
+  background: url(../img/signtop-complex.png);
+  background-repeat: no-repeat;
+  width: 202px;
+  height: 94px;
+  margin-top: 0;
+  -webkit-transition: -webkit-background 300ms ease-out;
+  -moz-transition: -moz-background 300ms ease-out;
+  -ms-transition: -ms-background 300ms ease-out;
+  -o-transition: -o-background 300ms ease-out;
+  transition: background 300ms ease-out; }
+  .sign-top:hover {
+    background: url(../img/signtop-complex-green.png); }
+  @media only screen and (max-width: 500px) {
+    .sign-top {
+      display: none; } }
+
 .top-bar-section ul li > a {
   font: 400 1em "Patua One", serif;
   letter-spacing: 1px;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background: #136860; }
+
+.top-bar.expanded .title-area {
+  background: #136860; }
+
+.top-bar-section ul li {
+  background: #136860; }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: #136860; }
@@ -79,6 +107,12 @@ table {
 
 .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
   background: #104a43; }
+
+.top-bar-section ul li > a.button.alert {
+  background-color: #ef4f1f;
+  margin-top: 1px; }
+  .top-bar-section ul li > a.button.alert:hover {
+    background-color: #cc5029; }
 
 .slider {
   margin: 2rem auto;
@@ -146,17 +180,19 @@ table {
   top: 40%;
   left: 0; }
 
-.button-section img {
-  margin: 1em 0;
-  -webkit-transition: -webkit-opacity 300ms ease-out;
-  -moz-transition: -moz-opacity 300ms ease-out;
-  -ms-transition: -ms-opacity 300ms ease-out;
-  -o-transition: -o-opacity 300ms ease-out;
-  transition: opacity 300ms ease-out; }
-  .button-section img:hover {
-    opacity: 0.8;
-    filter: alpha(opacity=40);
-    /* For IE8 and earlier */ }
+.button-section {
+  padding: 2rem 0; }
+  .button-section img {
+    margin: 1em 0;
+    -webkit-transition: -webkit-opacity 300ms ease-out;
+    -moz-transition: -moz-opacity 300ms ease-out;
+    -ms-transition: -ms-opacity 300ms ease-out;
+    -o-transition: -o-opacity 300ms ease-out;
+    transition: opacity 300ms ease-out; }
+    .button-section img:hover {
+      opacity: 0.8;
+      filter: alpha(opacity=40);
+      /* For IE8 and earlier */ }
 
 .sponsors {
   margin-top: 2em; }
@@ -192,5 +228,60 @@ table {
   #footer ul {
     list-style-type: none;
     margin: 0; }
+
+.main-copy h1 {
+  color: #ef4f1f;
+  text-align: left; }
+.main-copy h2 {
+  color: #585c62;
+  margin-bottom: .5em; }
+.main-copy a {
+  color: #22988c; }
+  .main-copy a:hover {
+    color: #104a43; }
+.main-copy p a {
+  color: #ef4f1f; }
+  .main-copy p a:hover {
+    color: #cc5029; }
+.main-copy .stage-sponsor {
+  margin-bottom: 0; }
+.main-copy .panel h2 {
+  color: #ef4f1f;
+  letter-spacing: 2px; }
+.main-copy .panel h4 {
+  color: #585c62; }
+.main-copy .panel p {
+  color: #585c62; }
+
+.sectionhead {
+  text-align: center; }
+
+table {
+  background-color: white;
+  border-bottom-color: white;
+  border-bottom-width: 0px;
+  border-collapse: separate;
+  border-left-color: white;
+  border-left-width: 0px;
+  border-right-color: white;
+  border-right-width: 0px;
+  border-top-color: white;
+  border-top-width: 0px;
+  margin: 0 0 0 1em; }
+  table tr td {
+    vertical-align: top; }
+
+.mytabs {
+  background: white; }
+  .mytabs h1 {
+    text-align: center; }
+  .mytabs p {
+    margin-bottom: 0; }
+
+.specials {
+  text-align: center; }
+  .specials .panel p {
+    color: white;
+    margin-bottom: .5em; }
 
 /*# sourceMappingURL=fair.css.map */
