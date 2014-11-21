@@ -33,9 +33,10 @@ p a {
     color: #ef4f1f;
     letter-spacing: 2px; }
   .panel h4 {
-    color: white; }
+    color: #ef4f1f; }
   .panel p {
-    color: white; }
+    color: white;
+    margin-bottom: .5em; }
 
 button.alert, .button.alert {
   background-color: #ef4f1f;
@@ -267,7 +268,7 @@ table {
   border-right-width: 0px;
   border-top-color: white;
   border-top-width: 0px;
-  margin: 0 0 0 1em; }
+  margin: 1em 0; }
   table tr td {
     vertical-align: top; }
 

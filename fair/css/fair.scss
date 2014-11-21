@@ -91,10 +91,11 @@ p {
 		letter-spacing: 2px;
 	}
 	h4 {
-		color: white;
+		color: $orange;
 	}
 	p {
 		color: white;
+		margin-bottom: .5em;
 	}
 }
 
@@ -409,7 +410,7 @@ table {
 	border-right-width: 0px;
 	border-top-color: white;
 	border-top-width: 0px;
-	margin: 0 0 0 1em;
+	margin: 1em 0;
 	tr {
 		td {
 			vertical-align: top;
