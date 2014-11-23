@@ -36,6 +36,9 @@
 	color:white;
 	text-transform: uppercase;
 }
+.top-bar-section .dropdown li a {
+	font-weight: 700;
+}
 
 .header {
     max-width: 62.5rem;
@@ -245,7 +248,7 @@ a.expand {
 	}
 }
 
-// CALENDAR //
+// CALENDAR SECTION //
 .cal {
 	.panel {
 		background-color: white;

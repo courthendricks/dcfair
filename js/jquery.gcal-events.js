@@ -13,7 +13,7 @@
 	$.fn.gCalEvents=function(opt) { 
 	var def = $.extend (
 		{
-			CalendarId:'douglascountyfair%40gmail.com',
+			CalendarId:'douglascountyfair@gmail.com',
 			DateFormat: 'DayMonth',
 			ShowTimes:true,
 			ShowDescription:true,

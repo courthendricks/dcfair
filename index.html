@@ -8,7 +8,24 @@
 	<link rel="stylesheet" href="css/normalize.css" >
 	<link rel="stylesheet" href="css/style.css" >
 
+	<!-- Google Cal Events -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="js/jquery.gcal-events.js"></script>
+	<script language="JavaScript" type="text/javascript">	
+		$(document).ready(function () {
+			$("#calendarEvents").gCalEvents({
+				CalendarId: "douglascountyfair@gmail.com",
+				ShowTimes: true,
+				ShowDescription: false,
+				NoEventsLang: "There are currently no events scheduled.",
+				TimeZone: "America/Los_Angeles",
+				FutureEvents: true,
+				MaxEvents: 6,
+				DateFormat: "DayMonth"
+			});
+		});
+	</script>
+
 	
 	<!-- Gateway Page -->
 	<script src="js/jquery.cookie.js"></script>
@@ -231,7 +248,7 @@
 
 			<div class="row">
 				<div class="large-12 medium-12 columns">
-					<ul id="calendarEvents">	</ul>
+					<ul id="calendarEvents"></ul>
 				</div>
 
 				
@@ -304,28 +321,9 @@
   
 
     <script src="js/foundation.min.js"></script>
-	<!-- Modal -->
-	<script>
-		$(document).foundation();
-		$(document).ready(function(){$('#formModal').foundation('reveal', 'open')});
-	</script>
-	
-	<!-- Google Cal Events -->
-	<script src="js/jquery.gcal-events.js"></script>
-	<script language="JavaScript" type="text/javascript">	
-		$(document).ready(function () {
-			$("#calendarEvents").gCalEvents({
-				CalendarId: "douglascountyfair%40gmail.com",
-				ShowTimes: true,
-				ShowDescription: false,
-				NoEventsLang: "There are currently no events scheduled.",
-				TimeZone: "America/Los_Angeles",
-				FutureEvents: true,
-				MaxEvents: 6,
-				DateFormat: "DayMonth"
-			});
-		});
-	</script>
+	    <script>
+	      $(document).foundation();
+	    </script>	
     <script src="http://localhost:35729/livereload.js"></script> 
  </body>
 </html>
