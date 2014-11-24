@@ -134,15 +134,24 @@
 }
 
 .overlay {
-  display: block;
-  position: absolute;
-  z-index: 20;
-  background: rgba(0, 0, 0, 0.8);
-  overflow: hidden;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+	display: block;
+	position: absolute;
+	z-index: 20;
+	background: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	@include breakpoint(mama-bear){
+		display: none;
+	}
+	@include breakpoint(teen-bear){
+		display: none;
+	}
+	@include breakpoint(baby-bear){
+		display: none;
+	}
 }
 
 a.close-overlay {
