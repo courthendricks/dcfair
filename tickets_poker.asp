@@ -193,17 +193,101 @@ Buffet Dinner Break:  5:00 p.m.</div></a>
 
 
 
+   <div class="sponsors">
+  	<div >
+  		<h4>Sponsored By</h4>
+  		<div class="row">
+  			<div class="large-12 medium-12 columns">
+	  			<ul class="large-block-grid-5 medium-block-grid-5 small-block-grid-1 effects">
+	  				<li><a href="http://www.bigfootbeverages.com" target="_blank"><img src="img/sponsor-bigfoot.png"></a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
 
- 
-<!--Footer Div-->            
+	  			</ul>
+  			</div>
+  			<div class="large-12 medium-12 columns">
+	  			<ul class="large-block-grid-5 medium-block-grid-5 small-block-grid-1 effects">
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  			</ul>
+  			</div>
+  			<div class="large-12 medium-12 columns">
+	  			<ul class="large-block-grid-5 medium-block-grid-5 small-block-grid-1 effects">
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  			</ul>
+  			</div>
+  			<div class="large-12 medium-12 columns">
+	  			<ul class="large-block-grid-5 medium-block-grid-5 small-block-grid-1 effects">
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  				<li><a href="#" target="_blank">#</a></li>
+	  			</ul>
+  			</div>
 
-<script>
-$(document).ready(function() {
-   $('#s3slider').s3Slider({
-      timeOut: 3000
-   });
-}); 
-</script>
+		
+	  	</div>
+  	</div>
+  </div>
+    
+
+
+  	<div id="footer" class="contain-to-grid">
+	 	<div class="row">
+	 	
+	       <div class="large-3 medium-3 columns">
+	        	<p><h4>Contact Us</h4>541 957 7010 <br> 541 440 6023 (fax) <br> <a href="mailto:fairgrounds@co.douglas.or.us">fairgrounds@co.douglas.or.us</a></p>
+	    	</div>
+	        <div class="large-3 medium-3 columns">
+	        	<p><h4>Visit Us</h4><strong>Take I-5 Exit 123</strong> <br><a href="location.html"><i class="fa fa-map-marker"></i>2110 SW Frear Street <br>Roseburg, Oregon 97471</a></p>
+	        </div>
+			<div class="large-3 medium-3 columns">
+	        	<p><h4>Community Links</h4>
+	        		<a href="http://www.visitroseburg.com/" target= "_blank">Visitor's Center</a><br>
+	        		<a href="http://www.co.douglas.or.us/" target= "_blank">Douglas County Government</a><br>	        		
+	        		<a href="http://www.oregonfairs.org/" target= "_blank">Oregon Fairs Association</a>
+	        	</p>
+	        </div> 
+	        <div class="large-3 medium-3 columns">
+	        	<p><h4>Connect With Us</h4>
+		        	<a href="https://www.facebook.com/douglascountyfair"target="_blank"><i class="fa fa-facebook-square"></i>Facebook</a><br>
+		        	<a href="https://www.youtube.com/user/DouglasFairgrounds/feed"target="_blank"><i class="fa fa-youtube-play"></i>YouTube</a><br>
+		        	<a href="http://www.pinterest.com/dcfair1"target="_blank"><i class="fa fa-pinterest"></i>Pinterest</a>
+	        	</p>
+	        </div>        
+		</div>
+  	</div>
+
+  <div id="copyright">
+  		<div class="row">
+	       <div class="large-6 medium-12 small-12 columns" >
+	    		<p>&copy; <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> Douglas County Fairgrounds. All Rights Reserved.</p>
+	    	</div>
+	    	<div class="large-6 medium-12 small-12 columns" >
+	    	</div>
+	  	</div>
+  </div>
+  
+
+
+
+	    <script src="js/vendor/jquery.js"></script>
+	    <script src="js/jquery-1.9.1.min.js"></script> 
+	    <script src="js/foundation.min.js"></script>
+	    <script>
+	      $(document).foundation();
+	    </script>
+
 </div> <!--wrapper close-->
 </body>
 </html>
