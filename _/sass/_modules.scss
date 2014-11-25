@@ -554,6 +554,7 @@ iframe {
 	}
 	a {
 		img {
+			max-width: 150px;
 			-webkit-transition: -webkit-opacity 300ms ease-out;
 			-moz-transition: -moz-opacity 300ms ease-out;
 			-ms-transition: -ms-opacity 300ms ease-out;
