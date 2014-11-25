@@ -211,6 +211,7 @@ table {
 }
 .owl-wrapper {
 	max-height: 400px;
+	margin: 0 auto;
 }
 
 .owl-carousel {
@@ -223,10 +224,19 @@ table {
 	max-height: 400px;
 
 }
-
+#owl-demo1 {
+	img {
+		width:100%;
+	}
+}
+#owl-demo2 .item{
+    padding: 5px 0px;
+    margin: 5px;
+}
+  
 .slider {
 	position: relative;
-	max-width: 1300px;
+	max-width: 1200px;
 	margin: 0 auto;
 
 }
@@ -269,11 +279,17 @@ table {
 	border-radius: 30px;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.2;
-		@include breakpoint(baby-bear){
+		@include breakpoint(teen-bear){
 			display: none;
 		}
-
 }
+
+.owl-buttons {
+		@include breakpoint(teen-bear){
+			display: none;
+		}
+}
+
 .owl-next {
 	top: 40%;
 	right: 0;

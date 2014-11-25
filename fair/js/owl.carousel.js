@@ -1469,7 +1469,7 @@ if (typeof Object.create !== "function") {
         stopOnHover : false,
 
         navigation : false,
-        navigationText : ["&#10096;", "&#10097;"],
+        navigationText : ["<i class='fa  fa-chevron-left'></i>", "<i class='fa  fa-chevron-right'></i>"],
         rewindNav : true,
         scrollPerPage : false,
 
