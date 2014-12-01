@@ -124,7 +124,7 @@ table {
   color: white; }
 
 .slider {
-  margin: 2rem auto;
+  margin: 1rem auto;
   max-width: 1200px; }
 
 .owl-wrapper {
@@ -141,6 +141,9 @@ table {
 
 #owl-demo1 img {
   width: 100%; }
+
+#owl-demo2 {
+  margin: 0 auto; }
 
 #owl-demo2 .item {
   padding: 5px 0px;
@@ -312,5 +315,35 @@ table {
     color: white; }
   .sponsors-page .panel img {
     max-width: 170px; }
+
+.countdown-section {
+  background: #ef4f1f;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  /* IE7 inline-block hack */ }
+  .countdown-section h4 {
+    margin: 0;
+    text-align: center; }
+  .countdown-section .styled div {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1;
+    text-align: right; }
+    .countdown-section .styled div span {
+      display: block;
+      border-top: 1px solid white;
+      padding-top: 3px;
+      font-size: 12px;
+      font-weight: normal;
+      text-transform: uppercase;
+      text-align: left; }
+  .countdown-section * + html .styled div {
+    display: inline;
+    zoom: 1; }
+  .countdown-section .styled div:first-child {
+    margin-left: 0; }
 
 /*# sourceMappingURL=fair.css.map */

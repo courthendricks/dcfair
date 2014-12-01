@@ -212,7 +212,7 @@ table {
 }
 
 .slider {
-	margin: 2rem auto;
+	margin: 1rem auto;
 	max-width: 1200px;
 
 }
@@ -235,6 +235,9 @@ table {
 	img {
 		width:100%;
 	}
+}
+#owl-demo2 {
+	margin: 0 auto;
 }
 #owl-demo2 .item{
     padding: 5px 0px;
@@ -483,5 +486,41 @@ table {
 	}
 }
 
-
+.countdown-section {
+	background: $orange;
+	color: white;
+	padding: 1em 0;
+	text-align: center;
+	h4 {
+		margin: 0;
+		text-align: center;
+	}
+	.styled {
+		div {
+		  display: inline-block;
+		  margin-left: 10px;
+		  font-size: 30px;
+		  font-weight: 100;
+		  line-height: 1;
+		  text-align: right;
+			span {
+			  display: block;
+			  border-top: 1px solid white;
+			  padding-top: 3px;
+			  font-size: 12px;
+			  font-weight: normal;
+			  text-transform: uppercase;
+			  text-align: left;
+			}
+		}
+	}
+		/* IE7 inline-block hack */
+		*+html .styled div{
+		  display: inline;
+		  zoom: 1;
+		}
+		.styled div:first-child {
+		  margin-left: 0;
+		}
+}
 
