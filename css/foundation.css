@@ -2208,11 +2208,11 @@ meta.foundation-mq-topbar {
         left: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background-color: #879556;
-    background: #879556;
+    background-color: black;
+    background: black;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #585c62;
+    background: #585b61;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;

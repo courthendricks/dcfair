@@ -118,6 +118,11 @@ table {
   .top-bar-section ul li > a.button.alert:hover {
     background-color: #cc5029; }
 
+.top-bar-section ul li:hover:not(.has-form) > a {
+  background-color: #104a43;
+  background: #104a43;
+  color: white; }
+
 .slider {
   margin: 2rem auto;
   max-width: 1200px; }

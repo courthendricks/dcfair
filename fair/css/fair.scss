@@ -127,6 +127,7 @@ table {
 
 }
 
+// HEADER STYLES
 .top-section {
 	height: 200px;
 	background: 
@@ -159,6 +160,9 @@ table {
 		display: none;
 	}
 }
+
+
+// NAV STYLES
 .top-bar-section .dropdown li a {
 	font-weight: 400;
 }
@@ -177,7 +181,6 @@ table {
 .top-bar-section ul li {
 	background: $torquoise;
 }
-
 
 .top-bar-section li:not(.has-form) a:not(.button){
 	background: $torquoise;
@@ -202,7 +205,11 @@ table {
 		background-color: $darkorange;
 	}
 }
-
+.top-bar-section ul li:hover:not(.has-form) > a {
+	background-color: $darktorquoise;
+	background: $darktorquoise;
+	color: white; 
+}
 
 .slider {
 	margin: 2rem auto;
