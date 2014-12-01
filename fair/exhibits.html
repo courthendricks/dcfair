@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="../css/style.css" >
 
 	<link rel="stylesheet" href="css/fair.css" >	
+	
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
 
   </head>
   <body>
@@ -115,16 +118,31 @@
 
 
    <div class="sponsors">
-  		<h4>Sponsored By</h4>
+  		<h4 >Sponsored By</h4>
   		<div class="row">
-  			<div class="large-12 medium-12 columns">
-	  			<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 effects">
-	  				<li><a href="http://www.clintnewellautogroup.net" target="_blank"><img src="img/sponsor-clint.png"></a></li>
-	  			</ul>
+  			<div class="large-12">
+					  <div id="owl-demo2" class="owl-carousel">						  
+			  			<div class="item"><a href="http://www.clintnewellautogroup.net" target="_blank"><img src="../img/sponsor-clint.png"></a>				  </div>
+			    		<div class="item"><a href="http://www.atriohp.com/" target="_blank"><img src="img/sponsor-Atrio.png"></a>					 			  </div>
+			    		<div class="item"><a href="http://www.bigfootbeverages.com" target="_blank"><img src="../img/sponsor-bigfoot.png"></a>					  </div>
+						<div class="item"><a href="https://www.pacificpower.net/index.html" target="_blank"><img src="../img/sponsor-pacific.png"></a>			  </div>
+			    		<div class="item"><a href="http://www.servprodouglascounty.com/" target="_blank"><img src="../img/sponsor-ServPro.png"></a>				  </div>
+			    		<div class="item"><a href="http://sevenfeathers.com/" target="_blank"><img src="../img/sponsor-7feathers.png"></a>						  </div>
+						<div class="item"><a href="http://www.umpquadairy.com" target= "_blank"><img src="../img/sponsor-umpqua.png"></a>						  </div>
+		  				<div class="item"><a href="https://www.cascadecu.org" target="_blank"><img src="img/sponsor-cascade.png"></a>							  </div>
+		  				<div class="item"><a href="http://www.nrtoday.com/" target= "_blank"><img src="img/sponsor-nr.png"></a>									  </div>
+		  				<div class="item"><a href="http://infostructure.net" target= "_blank"><img src="img/sponsor-info.png"></a>								  </div>
+			  			<div class="item"><a href="http://www.coastalfarm.com" target= "_blank"><img src="img/sponsor-costal.png"></a>							  </div>
+			  			<div class="item"><a href="http://coorslight.com" target= "_blank"><img src="../img/sponsor-coors.png"></a>								  </div>
+			  			<div class="item"><a href="http://coorslight.com" target= "_blank"><img src="img/sponsor-cowcreek.png"></a>								  </div>
+			  			<div class="item"><a href="http://coorslight.com" target= "_blank"><img src="img/sponsor-firstcom.png"></a>								  </div>
+			  			<div class="item"><a href="http://coorslight.com" target= "_blank"><img src="img/sponsor-joes.png"></a>									  </div>
+			  			<div class="item"><a href="http://www.shiner.com/" target="_blank"><img src="img/sponsor-ShinerBock.png" alt ="Beverage Sponsor"></a>	  </div>
+			  			<div class="item"><a href="http://www.uscellular.com/" target="_blank"><img src="img/sponsor-USCellular.png"alt ="Food Court Sponsor"></a></div>
+					  </div>
   			</div>
-	  	</div>
+ 	  	</div>
   </div>
-    
 
 
   	<div id="footer" class="contain-to-grid">
@@ -169,10 +187,22 @@
 
 	    <script src="../js/vendor/jquery.js"></script>
 	    <script src="../js/foundation.min.js"></script>
-	    <script src="../js/owl.carousel.js"></script>
+	    <script src="js/owl.carousel.js"></script>
 	    <script>
 	      $(document).foundation();
 	    </script>
+	    <script>
+	    $(document).ready(function() {
+	      $("#owl-demo2").owlCarousel({
+	
+	      slideSpeed : 300,
+	      paginationSpeed : 800,
+	      autoPlay : true
+	
+	      });
+	    });
+	    </script>
+
 	    <script src="http://localhost:35729/livereload.js"></script> 
       </body>
 </html>
