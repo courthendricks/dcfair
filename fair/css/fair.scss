@@ -138,7 +138,9 @@ table {
     url(../img/bg.jpg);
 	background-size:cover;
 	.logo img {
-		max-width: 300px;
+		max-width: 320px;
+		margin-top: .75em;
+		
 	}
 }
 
@@ -387,6 +389,7 @@ table {
 	h2 {
 		color: $grey;
 		margin-bottom: .5em;
+		font-size: 1.75em;
 	}
 	a {
 		color: $lighttorquoise;
@@ -405,7 +408,12 @@ table {
 		}
 	}
 	.stage-sponsor {
-		margin-bottom: 0;
+		margin: 0 auto;
+		max-width: 150px;
+		img {
+			margin: 0;
+		}
+		
 	}
 	.panel {
 	
@@ -455,7 +463,8 @@ table {
 	p {
 		margin-bottom: 0;
 	}
-	#panel1 {
+	table {
+		margin-top: -18px;
 	}
 }
 

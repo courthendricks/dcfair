@@ -62,7 +62,8 @@ table {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/bg.jpg);
   background-size: cover; }
   .top-section .logo img {
-    max-width: 300px; }
+    max-width: 320px;
+    margin-top: .75em; }
 
 .sign-top {
   background: url(../img/signtop-complex.png);
@@ -258,7 +259,8 @@ table {
   text-align: left; }
 .main-copy h2 {
   color: #585c62;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+  font-size: 1.75em; }
 .main-copy a {
   color: #22988c; }
   .main-copy a:hover {
@@ -268,7 +270,10 @@ table {
   .main-copy p a:hover {
     color: #cc5029; }
 .main-copy .stage-sponsor {
-  margin-bottom: 0; }
+  margin: 0 auto;
+  max-width: 150px; }
+  .main-copy .stage-sponsor img {
+    margin: 0; }
 .main-copy .panel h2 {
   color: #ef4f1f;
   letter-spacing: 2px; }
@@ -301,6 +306,8 @@ table {
     text-align: center; }
   .mytabs p {
     margin-bottom: 0; }
+  .mytabs table {
+    margin-top: -18px; }
 
 .specials {
   text-align: center; }
