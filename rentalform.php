@@ -12,7 +12,7 @@ $Message = Trim(stripslashes($_POST['Message']));
 
 
 $EmailFrom = $Email;
-$EmailTo = "courthendricks@gmail.com";
+$EmailTo = "fairgrounds@co.douglas.or.us";
 $Subject = "Rental Request Form";
 
 
