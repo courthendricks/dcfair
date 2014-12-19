@@ -1,21 +1,23 @@
 <?php
-if (isset($_POST['service'])) {
-    $service = $_POST['service'];
+if (isset($_GET['service'])) {
+    $service = $_GET['service'];
     // $service is an array of selected values
 }
 
 
-$Name = Trim(stripslashes($_POST['Name'])); 
-$Phone = Trim(stripslashes($_POST['Phone'])); 
-$Email = Trim(stripslashes($_POST['Email'])); 
-$Message = Trim(stripslashes($_POST['Message'])); 
+$Name = Trim(stripslashes($_GET['Name'])); 
+$Phone = Trim(stripslashes($_GET['Phone'])); 
+$Email = Trim(stripslashes($_GET['Email'])); 
+$Message = Trim(stripslashes($_GET['Message'])); 
 
 
 $EmailFrom = $Email;
-$EmailTo = "fairgrounds@co.douglas.or.us";
-$Subject = "Rental Request Form";
+$EmailTo = "courthendricks@gmail.com";
+$Subject = "Fairgrounds Rental Request Form";
 
-
+$headers .='X-Mailer: PHP/' . phpversion();
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
 
 
 // validation
