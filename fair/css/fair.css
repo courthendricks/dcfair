@@ -283,9 +283,11 @@ table {
   color: #585c62; }
 
 .sectionhead {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2em; }
 
 table {
+  width: 100%;
   background-color: white;
   border-bottom-color: white;
   border-bottom-width: 0px;
@@ -301,13 +303,15 @@ table {
     vertical-align: top; }
 
 .mytabs {
-  background: white; }
+  background: #136860; }
   .mytabs h1 {
     text-align: center; }
   .mytabs p {
     margin-bottom: 0; }
   .mytabs table {
-    margin-top: -18px; }
+    margin-top: -15px; }
+  .mytabs .stage-schedule {
+    margin: 0 auto; }
 
 .specials {
   text-align: center; }

@@ -40,6 +40,22 @@
 	font-weight: 700;
 }
 
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: $darkgreen;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+	background: $darkgreen;
+}
+
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+	background-color: $darkgreen;
+	background: $darkgreen;
+	color: white; 
+}
+
+
 .header {
     max-width: 62.5rem;
 	padding: 0 10px;

@@ -287,8 +287,20 @@
 	    <script src="js/foundation.min.js"></script>
 	    <script src="js/owl.carousel.js"></script>
 	    <script>
-	      $(document).foundation();
-	    </script>
-	    <script src="http://localhost:35729/livereload.js"></script> 
+		    $(document).foundation();
+			$(".accordion").on("click", "dd:not(.active)", function (original) {
+			original = $(this);
+			  $("dd.active").find(".content").slideUp("800", function(){
+			
+			  });
+			  $(this).find(".content").slideToggle("800", function() {
+			    $('html,body').animate({
+			          scrollTop: original.offset().top
+			        }, 1000);
+			        original.addClass("active");
+			        $(".accordion dd.active").not(original).removeClass("active");
+			  });
+			  });
+		</script>
       </body>
 </html>

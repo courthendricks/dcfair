@@ -12,6 +12,7 @@ $darkorange: #cc5029;
 $grey: #585c62;
 $transparentgrey: rgba(8,13,19,0.5);
 $lightgrey: #707376;
+
 $fair-slab: 'Patua One', serif;
 $fair: 'Sancreek', serif;
 
@@ -434,9 +435,11 @@ table {
 
 .sectionhead {
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 table {
+	width: 100%;
 	background-color: white;
 	border-bottom-color: white;
 	border-bottom-width: 0px;
@@ -456,7 +459,8 @@ table {
 }
 
 .mytabs {
-	background: white;	
+	background: $torquoise;
+		
 	h1 {
 		text-align: center;
 	}
@@ -464,7 +468,10 @@ table {
 		margin-bottom: 0;
 	}
 	table {
-		margin-top: -18px;
+		margin-top: -15px;
+	}
+	.stage-schedule {
+		margin: 0 auto;
 	}
 }
 
