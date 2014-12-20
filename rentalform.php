@@ -1,14 +1,14 @@
 <?php
-if (isset($_GET['service'])) {
-    $service = $_GET['service'];
+if (isset($_POST['service'])) {
+    $service = $_POST['service'];
     // $service is an array of selected values
 }
 
 
-$Name = Trim(stripslashes($_GET['Name'])); 
-$Phone = Trim(stripslashes($_GET['Phone'])); 
-$Email = Trim(stripslashes($_GET['Email'])); 
-$Message = Trim(stripslashes($_GET['Message'])); 
+$Name = Trim(stripslashes($_POST['Name'])); 
+$Phone = Trim(stripslashes($_POST['Phone'])); 
+$Email = Trim(stripslashes($_POST['Email'])); 
+$Message = Trim(stripslashes($_POST['Message'])); 
 
 
 $EmailFrom = $Email;
