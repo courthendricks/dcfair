@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     require_once("inc/class.phpmailer.php");
     $mail = new PHPMailer();
 
-    if (!$mail->ValidateAddress($email)){
+    if (!$mail->validateAddress($email)){
         echo "You must specify a valid email address.";
         exit;
     }
@@ -37,12 +37,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_body = $email_body . "PHONE: " . $phone . "<br>";
     $email_body = $email_body . "EMAIL: " . $email . "<br>";
     $email_body = $email_body . "MESSAGE: " . $message;
+    
+	$mail->IsSMTP();
+	$mail->SMTPAuth = true;
+	$mail->Host = "smtp.postmarkapp.com";
+	$mail->Port = 2525;
+	$mail->Username = "bcaa69b0-0af4-4651-9856-82ffd423d731";
+	$mail->Password = "bcaa69b0-0af4-4651-9856-82ffd423d731";
 
     $mail->SetFrom($email, $name);
+	$mail->AddReplyTo($email, $name);
     $address = "courthendricks@gmail.com";
     $mail->AddAddress($address, "Douglas County Fairgrounds");
     $mail->Subject    = "Fairgrounds Rental Request Form | " . $name;
     $mail->MsgHTML($email_body);
+	
+	
 
     if(!$mail->Send()) {
       echo "There was a problem sending the email: " . $mail->ErrorInfo;
