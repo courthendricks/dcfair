@@ -38,12 +38,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_body = $email_body . "EMAIL: " . $email . "<br>";
     $email_body = $email_body . "MESSAGE: " . $message;
     
-	$mail->IsSMTP();
-	$mail->SMTPAuth = true;
-	$mail->Host = "smtp.postmarkapp.com";
-	$mail->Port = 2525;
-	$mail->Username = "bcaa69b0-0af4-4651-9856-82ffd423d731";
-	$mail->Password = "bcaa69b0-0af4-4651-9856-82ffd423d731";
+
+//	$mail->IsSMTP();
+//	$mail->SMTPAuth = true;
+//	$mail->Host = "smtp.postmarkapp.com";
+//	$mail->Port = 2525;
+//	$mail->Username = "bcaa69b0-0af4-4651-9856-82ffd423d731";
+//	$mail->Password = "bcaa69b0-0af4-4651-9856-82ffd423d731";
+
 
     $mail->SetFrom($email, $name);
 	$mail->AddReplyTo($email, $name);
@@ -79,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   </head>
-  
+
   
   <body>
 	 
