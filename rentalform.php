@@ -1,4 +1,60 @@
-<!doctype html>
+<?php 
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = trim($_POST["name"]);
+    $phone = trim($_POST["phone"]);
+    $email = trim($_POST["email"]);
+    $message = trim($_POST["message"]);
+
+
+    if ($name == "" OR $phone == "" OR $message == "") {
+        echo "You must specify a value for name, phone number, and message.";
+        exit;
+    }
+
+    foreach( $_POST as $value ){
+        if( stripos($value,'Content-Type:') !== FALSE ){
+            echo "There was a problem with the information you entered.";    
+            exit;
+        }
+    }
+
+    if ($_POST["address"] != "") {
+        echo "Your form submission has an error.";
+        exit;
+    }
+
+    require_once("inc/class.phpmailer.php");
+    $mail = new PHPMailer();
+
+    if (!$mail->ValidateAddress($email)){
+        echo "You must specify a valid email address.";
+        exit;
+    }
+
+    $email_body = "";
+    $email_body = $email_body . "NAME: " . $name . "<br>";
+    $email_body = $email_body . "PHONE: " . $phone . "<br>";
+    $email_body = $email_body . "EMAIL: " . $email . "<br>";
+    $email_body = $email_body . "MESSAGE: " . $message;
+
+    $mail->SetFrom($email, $name);
+    $address = "courthendricks@gmail.com";
+    $mail->AddAddress($address, "Douglas County Fairgrounds");
+    $mail->Subject    = "Fairgrounds Rental Request Form | " . $name;
+    $mail->MsgHTML($email_body);
+
+    if(!$mail->Send()) {
+      echo "There was a problem sending the email: " . $mail->ErrorInfo;
+      exit;
+    }
+
+    header("Location: rentalform.php?status=thanks");
+    exit;
+}
+?>
+
+
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -98,7 +154,15 @@
 			  <div class="single-column">
 		  		<h1>Rental Request Form</h1>
 
-		        	<form data-abide method="post" enctype="multipart/form-data" action="rentalform.php">
+            <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
+        		<div data-alert class="alert-box success ">
+					  Thank you for your submission!
+					  <a href="#" class="close">&times;</a>
+				</div>
+				<p><a href="rentalform.php"><em>Back to the Rental Inquiry Form.</em></a></p>
+            <?php } else { ?>
+
+		        	<form data-abide method="post" action="rentalform.php">
 						  <div class="row">
 						    <div class="large-12 columns">
 						    	<div class="name-field " >
@@ -131,10 +195,18 @@
 						  </div> <!-- END ROW -->
 						  <div>
 							  <label for="message">Message</label>
-							  <textarea  name="message" id="message" placeholder="Your message here." rows="4"></textarea>
-						  </div><br>
+							  <textarea  name="message" id="message" placeholder="Your message here." rows="3"></textarea>
+						  </div>
+						    	<div style="display: none;" >
+								    <label for="address">Address
+								      <input type="address" name="address" id="address">
+								      <p><em>Not required. Please leave this field blank.</em></p>
+								    </label>
+						    	</div>
+						  <br>
 						  <button type="submit" name="submit" value="Submit" href="#" class="small button">Submit</button>
 					</form>
+            <?php } ?>
 
 			  </div>
 		</div>
